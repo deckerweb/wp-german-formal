@@ -13,9 +13,10 @@ Lädt anstelle der "offiziellen deutschen Sprachdateien" (die mit der WordPress 
 Diese neuen Sprachdateien basieren auf den "offiziellen Sprachdateien" aus der DE-Edition, in der Sie-Anrede. Sie wurden jedoch (nahezu) komplett überarbeitet und teilweise stark verändert.
 
 **Grundlegendes**
-1. [Übersetzungsprinzipien](https://github.com/deckerweb/wp-german-formal/wiki/%C3%9Cbersetzungsprinzipien)
-2. [Begriffstabelle/ -Vergleich - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdFRjNzVQRkpYZ2lVRnozbmJXcEpQcmc&usp=sharing)
-3. [WordPress Glossar - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdHdTaEYxdDBTZU4tWEFtOTN0bnZKUlE&usp=sharing)
+
+ 1. [Übersetzungsprinzipien](https://github.com/deckerweb/wp-german-formal/wiki/%C3%9Cbersetzungsprinzipien)
+ 2. [Begriffstabelle/ -Vergleich - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdFRjNzVQRkpYZ2lVRnozbmJXcEpQcmc&usp=sharing)
+ 3. [WordPress Glossar - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdHdTaEYxdDBTZU4tWEFtOTN0bnZKUlE&usp=sharing)
 
 ## Screenshots
 

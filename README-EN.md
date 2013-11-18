@@ -13,9 +13,10 @@ Instead of the packaged language files that come with WordPress - DE Edition - t
 Those new language packs are based on the "official language packs" from the DE Edition in the formal version. However, the new language files were heavily modified and a lot of important strings and principals changed.
 
 **Essentials for the Translations (German only!)**
-1. [Translation guidelines: Übersetzungsprinzipien](https://github.com/deckerweb/wp-german-formal/wiki/%C3%9Cbersetzungsprinzipien)
-2. [Translation comparison: Begriffstabelle/ -Vergleich - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdFRjNzVQRkpYZ2lVRnozbmJXcEpQcmc&usp=sharing)
-3. [WordPress glossary: WordPress Glossar - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdHdTaEYxdDBTZU4tWEFtOTN0bnZKUlE&usp=sharing)
+
+ 1. [Translation guidelines: Übersetzungsprinzipien](https://github.com/deckerweb/wp-german-formal/wiki/%C3%9Cbersetzungsprinzipien)
+ 2. [Translation comparison: Begriffstabelle/ -Vergleich - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdFRjNzVQRkpYZ2lVRnozbmJXcEpQcmc&usp=sharing)
+ 3. [WordPress glossary: WordPress Glossar - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdHdTaEYxdDBTZU4tWEFtOTN0bnZKUlE&usp=sharing)
 
 ## Screenshots
 

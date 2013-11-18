@@ -1,72 +1,103 @@
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WP German Formal Plugin package.
+#
+# Weitere deutsche Sprachdateien WordPress sowie Plugins und Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: WP German Formal v1.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-11-14 21:40:32+0000\n"
-"Last-Translator: ddecker <deckerweb.mobil@googlemail.com>\n"
-"Language-Team: \n"
+"Project-Id-Version: WP German Formal v1.0.1\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2013-11-14 21:40:32+0000\n"
+"PO-Revision-Date: 2013-11-19 00:15+0100\n"
+"Last-Translator: David Decker <http://deckerweb.de/kontakt/>\n"
+"Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: CSL v1.x\n"
-"X-Poedit-Language: German\n"
-"X-Poedit-Country: GERMANY\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ../\n"
-"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Textdomain-Support: yes"
 
+# @ wp-german-formal
 #. translators: plugin header field 'Name'
 #: wp-german-formal.php:0
-#@ wp-german-formal
 msgid "WP German Formal"
 msgstr "WP Deutsch formelle Anrede"
 
+# @ wp-german-formal
 #. translators: plugin header field 'PluginURI'
 #: wp-german-formal.php:0
-#@ wp-german-formal
 msgid "http://genesisthemes.de/en/wp-plugins/wp-german-formal/"
 msgstr "http://genesisthemes.de/plugins/wp-german-formal/"
 
+# @ wp-german-formal
 #. translators: plugin header field 'Description'
 #: wp-german-formal.php:0
-#@ wp-german-formal
-msgid "Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin."
-msgstr "(Eigene) Formelle deutsche Übersetzungen für WordPress Core laden und anzeigen lassen - für die Bereiche Global, Admin und Netzwerkverwaltung."
+msgid ""
+"Load (custom) formal German translations for WordPress Core - Global, Admin "
+"and Network Admin."
+msgstr ""
+"(Eigene) Formelle deutsche Übersetzungen für WordPress Core laden und "
+"anzeigen lassen - für die Bereiche Global, Admin und Netzwerkverwaltung."
 
+# @ wp-german-formal
 #. translators: plugin header field 'Author'
 #: wp-german-formal.php:0
-#@ wp-german-formal
 msgid "David Decker - DECKERWEB"
 msgstr "David Decker - DECKERWEB.de"
 
+# @ wp-german-formal
 #. translators: plugin header field 'AuthorURI'
 #: wp-german-formal.php:0
-#@ wp-german-formal
 msgid "http://deckerweb.de/"
 msgstr "http://deckerweb.de/"
 
+# @ wp-german-formal
 #. translators: plugin header field 'Version'
 #: wp-german-formal.php:0
-#@ wp-german-formal
-msgid "1.0.0"
-msgstr "1.0.0"
+msgid "1.0.1"
+msgstr "1.0.1"
 
+# @ wp-german-formal
 #: wp-german-formal.php:127
-#@ wp-german-formal
 msgid "Important info for \"WP German Formal\" plugin:"
 msgstr "Wichtige Hinweise für das Plugin \"WP Deutsch formelle Anrede\":"
 
+# @ wp-german-formal
 #: wp-german-formal.php:128
-#@ wp-german-formal
-msgid "You are currently have enabled the \"WP German Formal\" plugin to let load your translations for WordPress Core (global, admin, network admin). That is, generally speaking, perfectly fine. :) So thank you, first!"
-msgstr "Sie haben derzeit das Plugin \"WP Deutsch formelle Anrede\" (WP German Formal) aktivert, um Ihre Übersetzungen für WordPress Core (Global, Admin und Netzwerkverwaltung) laden zu lassen. Das ist, allgemein gesprochen, wirklich klasse! :) Daher zunächst einmal 'Danke' dafür!"
+msgid ""
+"You are currently have enabled the \"WP German Formal\" plugin to let load "
+"your translations for WordPress Core (global, admin, network admin). That "
+"is, generally speaking, perfectly fine. :) So thank you, first!"
+msgstr ""
+"Sie haben derzeit das Plugin \"WP Deutsch formelle Anrede\" (WP German "
+"Formal) aktivert, um Ihre Übersetzungen für WordPress Core (Global, Admin "
+"und Netzwerkverwaltung) laden zu lassen. Das ist, allgemein gesprochen, "
+"wirklich klasse! :) Daher zunächst einmal 'Danke' dafür!"
 
+# @ wp-german-formal
 #: wp-german-formal.php:129
-#@ wp-german-formal
-msgid "However, if you were/ are originally using a localized version of WordPress, let's say with German language pack, you can update your WordPress install like normal. It will also update the default (a.k.a. packaged) language packs. Since you have the above mentioned plugin active, the language packs from that plugin will be loaded and displayed. To have the default translations displayed you must deactivate the mentioned plugin."
-msgstr "Wie auch immer, wenn Sie davor eine lokalisierte Version von WordPress verwendet haben, beispielsweise mit deutscher Sprachdatei, dann können Sie selbstverständlich Ihre WordPress Installation aktualisieren, sollte eine neue Version erscheinen! Dabei werden auch die beigepackten Standard-Sprachdateien mit aktualisiert. Da Sie jedoch das oben genannte Plugin aktiviert haben, werden nur diese Sprachpakete von diesem Plugin zur Anzeige der Übersetzungen verwendet. Falls Sie doch wieder die von WordPress mitgelieferten Standard-Übersetzungen einsetzen wollen, müssen Sie einfach das besagte Plugin deaktivieren."
+msgid ""
+"However, if you were/ are originally using a localized version of WordPress, "
+"let's say with German language pack, you can update your WordPress install "
+"like normal. It will also update the default (a.k.a. packaged) language "
+"packs. Since you have the above mentioned plugin active, the language packs "
+"from that plugin will be loaded and displayed. To have the default "
+"translations displayed you must deactivate the mentioned plugin."
+msgstr ""
+"Wie auch immer, wenn Sie davor eine lokalisierte Version von WordPress "
+"verwendet haben, beispielsweise mit deutscher Sprachdatei, dann können Sie "
+"selbstverständlich Ihre WordPress Installation aktualisieren, sollte eine "
+"neue Version erscheinen! Dabei werden auch die beigepackten Standard-"
+"Sprachdateien mit aktualisiert. Da Sie jedoch das oben genannte Plugin "
+"aktiviert haben, werden nur diese Sprachpakete von diesem Plugin zur Anzeige "
+"der Übersetzungen verwendet. Falls Sie doch wieder die von WordPress "
+"mitgelieferten Standard-Übersetzungen einsetzen wollen, müssen Sie einfach "
+"das besagte Plugin deaktivieren."

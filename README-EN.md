@@ -24,14 +24,14 @@ Those new language packs are based on the "official language packs" from the DE 
 
 ### Upload
 
-1. Download the latest tagged archive (choose the "zip" option).
+1. Download the latest tagged archive (choose the "zip" option) from [our GitHub.com Releases](https://github.com/deckerweb/wp-german-formal/releases).
 2. Go to the __Plugins -> Add New__ screen and click the __Upload__ tab.
 3. Upload the zipped archive directly.
 4. Go to the Plugins screen and click __Activate__.
 
 ### Manual
 
-1. Download the latest tagged archive (choose the "zip" option).
+1. Download the latest tagged archive (choose the "zip" option) from [our GitHub.com Releases](https://github.com/deckerweb/wp-german-formal/releases).
 2. Unzip the archive.
 3. Copy the folder to your `/wp-content/plugins/` directory.
 4. Go to the Plugins screen and click __Activate__.

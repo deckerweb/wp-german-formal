@@ -24,14 +24,14 @@ Diese neuen Sprachdateien basieren auf den "offiziellen Sprachdateien" aus der D
 
 ### Hochladen
 
-1. Die neueste Version hier von [https://github.com/deckerweb/wp-german-formal/releases](GitHub.com > Releases) herunterladen (die "zip"-Option wählen).
+1. Die neueste Version hier von [den GitHub.com Releases](https://github.com/deckerweb/wp-german-formal/releases) herunterladen (die "zip"-Option wählen).
 2. Zur Admin-Seite __Plugins -> Installieren__ gehen und dort den Tab __Hochladen__ wählen.
 3. Das ZIP-Paket direkt hochladen.
 4. Nach dem Hochladeprozess auf __Aktivieren__ klicken.
 
 ### Manuell
 
-1. Die neueste Version hier von GitHub.com herunterladen (die "zip"-Option wählen).
+1. Die neueste Version hier von [den GitHub.com Releases](https://github.com/deckerweb/wp-german-formal/releases) herunterladen (die "zip"-Option wählen).
 2. Das heruntergeladene Archiv entpacken (extrahieren).
 3. Kopieren Sie den entpackten Ordner in Ihr `/wp-content/plugins/` Verzeichnis (in der Regel via FTP).
 4. Gehen Sie auf die Admin-Seite "Plugins", wählen Sie das entsprechende plugin und klicken __Aktivieren__.

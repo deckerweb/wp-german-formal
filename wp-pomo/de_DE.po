@@ -1,5 +1,15 @@
 # Translation of WordPress 3.7 Branch in German
 # This file is distributed under the same license as the WordPress 3.7 Branch package.
+#
+# Deutsche Übersetzung von David Decker, DECKERWEB.de, basierend auf formaler WPDE Sprachdatei.
+#
+# @author           David Decker - DECKERWEB
+# @link             http://deckerweb.de
+# @copyright        Copyright (c) 2012-2013, David Decker - DECKERWEB
+# @license:         GPL-2.0+
+#
+# @wordpress-plugin https://github.com/deckerweb/wp-german-formal
+#
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2013-11-14 12:25:22+0000\n"
@@ -461,7 +471,7 @@ msgstr "Titel:"
 
 #: wp-includes/taxonomy.php:473
 msgid "Separate tags with commas"
-msgstr "Trenne Schlagwörter durch Kommas"
+msgstr "Schlagwörter, kommagetrennt"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:171
 msgid "Select All"
@@ -685,8 +695,8 @@ msgstr "Es wurden keine Kommentare gefunden, die Ihren Suchkriterien entsprechen
 #: wp-content/plugins/akismet/admin.php:342
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
-msgstr[0] "<a href=\"%1$s\">Akismet</a> hat Ihre Seite vor <a href=\"%2$s\">%3$s Spamkommentar</a> bewahrt."
-msgstr[1] "<a href=\"%1$s\">Akismet</a> hat Ihre Seite vor <a href=\"%2$s\">%3$s Spamkommentaren</a> bewahrt."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> hat Ihre Webseite vor <a href=\"%2$s\">%3$s Spamkommentar</a> bewahrt."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> hat Ihre Webseite vor <a href=\"%2$s\">%3$s Spamkommentaren</a> bewahrt."
 
 #: wp-content/plugins/akismet/legacy.php:385
 msgid "Recheck Queue for Spam"
@@ -1419,7 +1429,7 @@ msgstr "Veröffentlicht"
 
 #: wp-includes/post.php:832
 msgid "Pending Review"
-msgstr "Ausstehender Review"
+msgstr "Freigabe ausstehend"
 
 #: wp-includes/post.php:831 wp-includes/post.php:852
 msgid "Draft"
@@ -1432,7 +1442,7 @@ msgstr "d.m.Y"
 #: wp-includes/admin-bar.php:255 wp-includes/admin-bar.php:401
 #: wp-includes/deprecated.php:2833
 msgid "Visit Site"
-msgstr "Zur Seite"
+msgstr "Zur Webseite"
 
 #: wp-includes/admin-bar.php:206 wp-includes/class-wp-admin-bar.php:367
 msgid "Log Out"
@@ -1711,7 +1721,7 @@ msgstr "%1$s [Aktuelle Revision]"
 
 #: wp-includes/script-loader.php:121
 msgid "Your session has expired. You can log in again from this page or go to the login page."
-msgstr "Ihre Session ist abgelaufen. Sie können sich auf dieser Seite erneut einloggen oder zur Login Seite gehen."
+msgstr "Ihre Sitzung ist abgelaufen. Sie können sich auf dieser Seite erneut anmelden oder zur Anmeldeseite gehen."
 
 #: wp-includes/script-loader.php:423
 msgid "%1$s %2$s, %3$s @ %4$s : %5$s"
@@ -1719,23 +1729,23 @@ msgstr "%2$s. %1$s %3$s @ %4$s : %5$s"
 
 #: wp-login.php:797
 msgid "Session expired. Please log in again. You will not move away from this page."
-msgstr "Session abgelaufen. Bitte melden Sie sich an. Sie werden diese Seite nicht verlassen."
+msgstr "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an. Sie werden diese Webseite nicht verlassen."
 
 #: wp-signup.php:641
 msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s incorrect, you will not receive your email."
-msgstr "Haben Sie ihre E-Mail richtig eingegeben? Sie haben %s eingegeben, wenn diese nicht korrekt ist, erhalten Sie keine E-Mail."
+msgstr "Haben Sie ihre E-Mail richtig eingegeben? Sie haben %s eingegeben, wenn dies nicht korrekt ist, erhalten Sie keine E-Mail."
 
 #: wp-signup.php:718
 msgid "The site you were looking for, <strong>%s</strong>, does not exist, but you can create it now!"
-msgstr "Die Seite die Sie gesucht haben, <strong>%s</strong>, existiert nicht, aber Sie können sie jetzt erstellen!"
+msgstr "Die Webseite, nach der Sie gesucht haben, <strong>%s</strong>, existiert nicht, aber Sie könnten diese jetzt neu anlegen!"
 
 #: wp-signup.php:720
 msgid "The site you were looking for, <strong>%s</strong>, does not exist."
-msgstr "Die Seite die Sie gesucht haben, <strong>%s</strong>, existiert nicht."
+msgstr "Die Webseite, nach der Sie gesucht haben, <strong>%s</strong>, existiert nicht."
 
 #: wp-includes/functions.php:4096
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
-msgstr "Die Login Seite wird sich in einem neuen Fenster öffnen. Nach dem Einloggen können Sie das Fenster schließen und zu dieser Seite zurückkehren."
+msgstr "Die Anmeldeseite wird sich in einem neuen Fenster öffnen. Nach dem Anmelden können Sie das Fenster schließen und zu dieser Seite zurückkehren."
 
 #: wp-includes/post-template.php:1378
 msgctxt "post revision title"
@@ -2051,9 +2061,9 @@ msgid ""
 "\n"
 "Disable these notifications: %4$s"
 msgstr ""
-"Neue Seite: %1$s\n"
+"Neue Webseite: %1$s\n"
 "URL: %2$s\n"
-"Remote IP: %3$s\n"
+"Entfernte IP: %3$s\n"
 "\n"
 "Deaktivieren Sie diese Mitteilungen: %4$s"
 
@@ -2065,7 +2075,7 @@ msgid ""
 "Disable these notifications: %3$s"
 msgstr ""
 "Neuer Benutzer: %1$s\n"
-"Remote IP: %2$s\n"
+"Entfernte IP: %2$s\n"
 "\n"
 "Deaktivieren Sie diese Mitteilungen: %3$s\n"
 
@@ -2160,11 +2170,11 @@ msgstr "Erstellen"
 
 #: wp-includes/post.php:59
 msgid "View Attachment Page"
-msgstr "Zeige Anhangseite"
+msgstr "Anhangseite anzeigen"
 
 #: wp-includes/post.php:2800
 msgid "Whoops, the provided date is invalid."
-msgstr "Ups, das vorgesehene Datum ist ungültig."
+msgstr "Oh, das vorgesehene Datum ist ungültig."
 
 #: wp-includes/media.php:1904
 msgid "Insert Media"
@@ -2322,7 +2332,7 @@ msgstr "Obere Navigationswerkzeugleiste"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:513
 msgid "Distraction Free Writing mode (Alt + Shift + W)"
-msgstr "Freier Schreibmodus Tastenkürzel: Alt + Shift + W"
+msgstr "Freier Schreibmodus &ndash; Tastenkürzel: Alt + Shift + W"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:135
 msgid "Horizontal rule"
@@ -2732,7 +2742,7 @@ msgstr ","
 
 #: wp-includes/admin-bar.php:263
 msgid "Edit Site"
-msgstr "Seite bearbeiten"
+msgstr "Webseite bearbeiten"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1470
 msgid "Sorry, you are not allowed to edit posts in this post type"
@@ -2964,7 +2974,7 @@ msgstr "\"Weiterlesen\"-Link einfügen (ALT + UMSCHALT + T)"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:501
 msgid "Show/Hide Kitchen Sink (Alt + Shift + Z)"
-msgstr "Werkzeugleiste anzeigen/verstecken (Alt + Shift + Z)"
+msgstr "Werkzeugleiste erweitern/ zuklappen (Alt + Shift + Z)"
 
 #: wp-includes/class-wp-editor.php:712
 #: wp-includes/js/tinymce/langs/wp-langs.php:323
@@ -3458,7 +3468,7 @@ msgstr "Bild einfügen/bearbeiten (ALT + Großschreibung + M)"
 #: wp-includes/class-wp-editor.php:715
 #: wp-includes/js/tinymce/langs/wp-langs.php:303
 msgid "Insert/edit link (Alt + Shift + A)"
-msgstr "Link einfügen/bearbeiten (ALT + Großschreibung + A)"
+msgstr "Link einfügen/ bearbeiten (ALT + Großschreibung + A)"
 
 #: wp-includes/class-wp-editor.php:716
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
@@ -3711,8 +3721,8 @@ msgstr "Inhaltsformat"
 #: wp-content/plugins/akismet/admin.php:556
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already. "
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already. "
-msgstr[0] "<a href=\"%1$s\">Akismet</a> hat Ihre Seite bereits vor %2$s Spam-Kommentar bewahrt."
-msgstr[1] "<a href=\"%1$s\">Akismet</a> hat Ihre Seite bereits vor %2$s Spam-Kommentaren bewahrt."
+msgstr[0] "<a href=\"%1$s\">Akismet</a> hat Ihre Webseite bereits vor %2$s Spam-Kommentar bewahrt."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> hat Ihre Webseite bereits vor %2$s Spam-Kommentaren bewahrt."
 
 #: wp-content/plugins/akismet/admin.php:567
 msgid "There's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
@@ -4182,8 +4192,8 @@ msgstr ""
 #: wp-includes/ms-load.php:254
 msgid "Read the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
 msgstr ""
-"Lesen Sie die <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">Fehler-Report</a> Seite. \n"
-"Einige der Richtlinien können Ihnen helfen herauszufinden, was falsch gelaufen ist."
+"Lesen Sie die Seite <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">Fehlerberichte (Engl.)</a>. \n"
+"Einige der Richtlinien können Ihnen vielleicht helfen, herauszufinden, was falsch gelaufen ist."
 
 #: wp-includes/ms-functions.php:741 wp-includes/ms-functions.php:792
 msgid "[%1$s] Activate %2$s"
@@ -4191,7 +4201,7 @@ msgstr "[%1$s] Aktivieren %2$s"
 
 #: wp-includes/ms-load.php:227
 msgid "No site defined on this host. If you are the owner of this site, please check <a href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">Debugging a WordPress Network</a> for help."
-msgstr "Auf diesem Host sind keine Seiten definiert. Wenn Sie der Besitzer dieser Seite sind, finden Sie Hilfe auf der Seite <a href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">Debugging a WordPress Network (engl.)</a>."
+msgstr "Auf diesem Host sind keine Webseiten definiert. Wenn Sie der Besitzer dieser Webseite sind, finden Sie Hilfe auf der Seite <a href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">Debugging bei einem WordPress Webseiten-Netzwerk (Engl.)</a>."
 
 #: wp-content/plugins/akismet/widget.php:67
 msgid "Spam Blocked"
@@ -4219,7 +4229,7 @@ msgstr "Wenn Sie der Besitzer dieses Netzwerks sind, überprüfen Sie bitte, das
 
 #: wp-includes/ms-load.php:247
 msgid "If your site does not display, please contact the owner of this network."
-msgstr "Wenn Ihre Seite nicht angezeigt wird, nehmen Sie bitte Kontakt zum Betreiber des Netzwerks auf."
+msgstr "Wenn Ihre Webseite nicht angezeigt wird, nehmen Sie bitte Kontakt zum Betreiber des Netzwerks auf."
 
 #: wp-includes/theme-compat/comments.php:26
 msgid "One Response to %2$s"
@@ -4836,7 +4846,7 @@ msgstr "Sie muss aus mindestens vier Zeichen bestehen, wobei Sie bitte nur Zahle
 
 #: wp-signup.php:677
 msgid "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
-msgstr "Sie müssen sich zuerst <a href=\"%s\">einloggen</a>, um eine neue Webseite zu erstellen."
+msgstr "Sie müssen sich zuerst <a href=\"%s\">anmelden</a>, dann können Sie eine neue Webseite erstellen."
 
 #: wp-signup.php:712
 msgid "You are logged in already. No need to register again!"
@@ -4945,8 +4955,8 @@ msgstr[1] "%d Theme-Aktualisierungen"
 #: wp-includes/update.php:479
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
-msgstr[0] "%d Plugin Update"
-msgstr[1] "%d Plugin Updates"
+msgstr[0] "%d Plugin-Aktualisierung"
+msgstr[1] "%d Plugin-Aktualisierungen"
 
 #: wp-signup.php:374
 msgid "The site %s is yours."
@@ -5046,7 +5056,7 @@ msgstr "Erlaube neuen Benutzern die Registrierung"
 
 #: wp-includes/class-wp-xmlrpc-server.php:2272
 msgid "Sorry, you cannot edit this page."
-msgstr "Bedaure, Sie können diese Seite nicht bearbeiten."
+msgstr "Leider können Sie diese Seite nicht bearbeiten."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2282
 #: wp-includes/class-wp-xmlrpc-server.php:2386
@@ -5057,7 +5067,7 @@ msgstr "Diese Seite gibt es leider nicht."
 #: wp-includes/class-wp-xmlrpc-server.php:2310
 #: wp-includes/class-wp-xmlrpc-server.php:2470
 msgid "Sorry, you cannot edit pages."
-msgstr "Bedaure, Sie können keine Seiten bearbeiten."
+msgstr "Leider können Sie keine Seiten bearbeiten."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2390
 msgid "Sorry, you do not have the right to delete this page."
@@ -5092,7 +5102,7 @@ msgstr "Ungültige Kommentar-ID."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2769
 msgid "Sorry, you cannot edit comments."
-msgstr "Bedaure, Sie können keine Kommentare bearbeiten."
+msgstr "Leider können Sie keine Kommentare bearbeiten."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2899
 msgid "Invalid comment status."
@@ -5327,7 +5337,7 @@ msgstr "Seiten-IDs, durch Kommas getrennt."
 
 #: wp-includes/default-widgets.php:93
 msgid "Your blogroll"
-msgstr "Ihre Blogroll"
+msgstr "Ihre Linkliste"
 
 #: wp-includes/default-widgets.php:169
 msgid "Show Link Image"
@@ -5725,7 +5735,7 @@ msgstr "Wird zur Zeit von Ihrem Browser nicht unterstützt, benutzen Sie stattde
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:29
 msgid "Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool."
-msgstr "Ihr Pop-up-Blocker hat die Anzeige eines Fensters mit wichtigen Programmfunktionen unterbunden. Um diese Seite vollumfänglich nutzen zu können, müssen Sie deren Pop-ups zulassen."
+msgstr "Ihr Popup-Blocker hat die Anzeige eines Fensters mit wichtigen Programmfunktionen unterbunden. Um diese Webseite vollumfänglich nutzen zu können, müssen Sie deren Popups zulassen."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:34
 #: wp-includes/js/tinymce/langs/wp-langs.php:328
@@ -5822,7 +5832,7 @@ msgstr "Feb_Februar_abbreviation"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:148
 msgid "Mar_March_abbreviation"
-msgstr "Mrz_März_abbreviation"
+msgstr "Mär_März_abbreviation"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:149
 msgid "Apr_April_abbreviation"
@@ -6028,7 +6038,7 @@ msgstr "Als unformatierten Text einfügen"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:170
 msgid "Paste from Word"
-msgstr "Aus Word einfügen"
+msgstr "Aus Microsoft \"Word\" einfügen"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:177
 #: wp-includes/js/tinymce/langs/wp-langs.php:179
@@ -6126,12 +6136,12 @@ msgstr "Beim Verlassen der Seite werden Ihre Änderungen verworfen."
 
 #: wp-includes/script-loader.php:90
 msgid "Toggle fullscreen mode"
-msgstr "Vollbildmodus ein/aus"
+msgstr "Vollbildmodus ein/ aus"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:214
 #: wp-includes/js/tinymce/langs/wp-langs.php:391
 msgid "Insert / edit embedded media"
-msgstr "Medien einbetten/bearbeiten"
+msgstr "Medien einbetten/ bearbeiten"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:215
 msgid "Edit embedded media"
@@ -6855,7 +6865,7 @@ msgstr "Weiterlesen …"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:506
 msgid "Next page..."
-msgstr "Nächste Seite …"
+msgstr "Nächste Seite&hellip;"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:511 wp-includes/media.php:1922
 msgid "Edit Gallery"
@@ -6994,7 +7004,7 @@ msgstr "Bilder und Anlagen"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:181
 msgid "There is a button in the editor toolbar for inserting images that are already hosted somewhere on the internet. If you have a URL for an image, click this button and enter the URL in the box which appears."
-msgstr "In der Editor-Symbolleiste gibt es eine Schaltfläche, um Bilder einzufügen, die bereits irgendwo im Internet gehostet sind. Wenn Sie eine URL für ein Bild haben, klicken Sie diese Schaltfläche an und geben Sie die URL ein."
+msgstr "In der Editor-Symbolleiste gibt es einen Button, um Bilder einzufügen, die bereits irgendwo im Internet gehostet sind. Wenn Sie also eine URL für ein Bild haben, klicken Sie diese Schaltfläche an und geben Sie die URL ein. &mdash; Bitte beachten Sie die Bildrechte bei externen Bildern besonders (Stichwort: Abmahn-Unwesen...)!"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:183
 msgid "HTML in the Rich Editor"
@@ -7140,7 +7150,7 @@ msgstr "Dieser Benutzer existiert nicht."
 
 #: wp-includes/ms-functions.php:458
 msgid "You cannot use that email address to signup. We are having problems with them blocking some of our email. Please use another email provider."
-msgstr "Sie können sich leider nicht mit dieser E-Mail-Adresse registrieren, da Ihr E-Mail-Anbieter einen Teil unserer E-Mails blockiert. Nutzen Sie bitte eine E-Mailadresse eines anderen E-Mail-Anbieters."
+msgstr "Sie können sich leider nicht mit dieser E-Mail-Adresse registrieren, da Ihr E-Mail-Anbieter einen Teil unserer E-Mails blockiert. Verwenden Sie bitte eine E-Mail-Adresse eines anderen E-Mail-Anbieters."
 
 #: wp-includes/ms-functions.php:468
 msgid "Sorry, usernames must have letters too!"
@@ -7205,10 +7215,10 @@ msgstr ""
 "\n"
 "Ihr Benutzerkonto wurde angelegt.\n"
 "\n"
-"Sie können sich mit folgenden Daten einloggen: \n"
+"Sie können sich mit folgenden Daten anmelden: \n"
 "Benutzername: USERNAME\n"
 "Passwort: PASSWORD\n"
-"Login unter: LOGINLINK\n"
+"Anmelden unter: LOGINLINK\n"
 "\n"
 "Viel Spaß!\n"
 "\n"
@@ -7421,8 +7431,8 @@ msgstr "Ausstehend"
 #: wp-includes/post.php:134
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
-msgstr[0] "Austehend <span class=\"count\">(%s)</span>"
-msgstr[1] "Austehend <span class=\"count\">(%s)</span>"
+msgstr[0] "Freigabe ausstehend <span class=\"count\">(%s)</span>"
+msgstr[1] "Freigabe ausstehend <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:138
 msgctxt "post"
@@ -7488,13 +7498,13 @@ msgstr "Jabber / Google Talk"
 
 #: wp-includes/default-widgets.php:853 wp-includes/rss.php:899
 msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "Ein Fehler ist aufgetreten – der Feed funktioniert zur Zeit nicht. Probiere es später noch einmal."
+msgstr "Ein Fehler ist aufgetreten – der Feed funktioniert zur Zeit nicht. Versuchen Sie es später noch einmal."
 
 #: wp-includes/script-loader.php:77
 msgid ""
 "You are about to permanently delete the selected items.\n"
 "  'Cancel' to stop, 'OK' to delete."
-msgstr "Sie sind dabei, die ausgewählten Punkte endültig zu löschen. Drücken Sie 'Abbrechen' zum stoppen, 'OK' zum löschen."
+msgstr "Sie sind dabei, die ausgewählten Elemente endültig zu löschen. Klicken Sie 'Abbrechen', um zu Stoppen, 'OK', um zu Löschen."
 
 #: wp-includes/script-loader.php:84
 msgid "Close all open tags"
@@ -7562,7 +7572,7 @@ msgstr "Der gewählte Dateityp ist nicht zulässig."
 
 #: wp-includes/script-loader.php:229
 msgid "An error occurred in the upload. Please try again later."
-msgstr "Bei dem Upload ist ein Fehler aufgetaucht. Probieren Sie es später noch einmal."
+msgstr "Beim Hochladen ist ein Fehler aufgetreten. Versuchen Sie es später noch einmal."
 
 #: wp-includes/script-loader.php:230
 msgid "There was a configuration error. Please contact the server administrator."
@@ -7570,15 +7580,15 @@ msgstr "Die Konfiguration ist fehlerhaft. Bitte wenden Sie sich an Ihren Servera
 
 #: wp-includes/script-loader.php:231
 msgid "You may only upload 1 file."
-msgstr "Sie möchten nur 1 Datei hochladen."
+msgstr "Sie können nur 1 Datei hochladen."
 
 #: wp-includes/script-loader.php:232
 msgid "HTTP error."
-msgstr "HTTP Fehler."
+msgstr "HTTP-Fehler."
 
 #: wp-includes/script-loader.php:233
 msgid "Upload failed."
-msgstr "Upload fehlgeschlagen."
+msgstr "Hochladen fehlgeschlagen."
 
 #: wp-includes/script-loader.php:236
 msgid "IO error."
@@ -7590,7 +7600,7 @@ msgstr "Sicherheitsfehler."
 
 #: wp-includes/script-loader.php:239
 msgid "Upload stopped."
-msgstr "Upload gestoppt."
+msgstr "Hochladen gestoppt."
 
 #: wp-includes/script-loader.php:241
 msgid "Crunching&hellip;"

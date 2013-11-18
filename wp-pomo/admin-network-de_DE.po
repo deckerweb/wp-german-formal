@@ -1,5 +1,15 @@
 # Translation of Admin Network in German
 # This file is distributed under the same license as the Admin Network package.
+#
+# Deutsche Übersetzung von David Decker, DECKERWEB.de, basierend auf formaler WPDE Sprachdatei.
+#
+# @author           David Decker - DECKERWEB
+# @link             http://deckerweb.de
+# @copyright        Copyright (c) 2012-2013, David Decker - DECKERWEB
+# @license:         GPL-2.0+
+#
+# @wordpress-plugin https://github.com/deckerweb/wp-german-formal
+#
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2013-11-03 18:38:08+0000\n"
@@ -237,7 +247,7 @@ msgstr "Netzwerk: Einstellungen"
 
 #: wp-admin/network/site-themes.php:165
 msgid "Network enabled themes are not shown on this screen."
-msgstr "Im Netzwerk aktivierte Themes werden in dieser Ansicht nicht angezeigt."
+msgstr "Netzwerk-weit aktivierte Themes werden in dieser Ansicht nicht angezeigt."
 
 #: wp-admin/network/themes.php:17
 msgid "You do not have sufficient permissions to manage network themes."
@@ -308,17 +318,17 @@ msgstr "Themes"
 #: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:24
 #: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
 msgid "<strong>Info</strong> - The domain and path are rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
-msgstr "<strong>Info</strong> - Die Domain und der Pfad werden nur selten geändert, weil dies dazu führen kann, dass die Webseite nicht mehr korrekt funktioniert. Das eingetragene Datum der Registrierung und das Datum der letzten Änderung werden angezeigt. Netzwerk-Administratoren können die Webseite als Spam markieren, sie archivieren, löschen, erweitern und aus der öffentlichen Auflistung entfernen oder deaktivieren."
+msgstr "<strong>Info</strong> - Die Domain und der Pfad werden nur selten geändert, weil dies dazu führen kann, dass die Webseite nicht mehr korrekt funktioniert. Das eingetragene Datum der Registrierung und das Datum der letzten Änderung werden angezeigt. Netzwerk-Administratoren können die Webseite als Spam markieren, sie archivieren, löschen, deaktivieren oder auch als Erwachseneninhalt einstufen und damit aus der öffentlichen Auflistung entfernen."
 
 #: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:25
 #: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
 msgid "<strong>Users</strong> - This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
-msgstr "<strong>Benutzer</strong> - Dieser Bereich zeigt, welche Benutzer mit dieser Webseite verknüpft sind. Sie können auch deren Benutzerrolle ändern, deren Passwort zurücksetzen oder einen Benutzer von der Webseite entfernen. Das Löschen eines Benutzers von einer Webseite löscht diesen Benutzer jedoch nicht aus dem gesamten Netzwerk!"
+msgstr "<strong>Benutzer</strong> - Dieser Bereich zeigt, welche Benutzer mit dieser Webseite verknüpft sind. Sie können auch deren Benutzerrolle ändern, deren Passwort zurücksetzen oder einen Benutzer von der Webseite entfernen. Das Löschen bzw. Entfernen eines Benutzers von <em>einer</em> Webseite löscht diesen Benutzer jedoch nicht aus dem gesamten Netzwerk!"
 
 #: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:23
 #: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
 msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
-msgstr "Das Menü ist zum Bearbeiten von spezifischen Informationen der jeweiligen Webseiten, insbesondere dann, wenn der Administrations-Bereich der Webseiten nicht erreichbar ist. "
+msgstr "Das Menü ist zum Bearbeiten von spezifischen Informationen der jeweiligen Webseite, insbesondere dann, wenn der Administrations-Bereich der Webseiten nicht erreichbar ist. "
 
 #: wp-admin/network/sites.php:35
 msgid "Dashboard leads to the Dashboard for that site."
@@ -326,7 +336,7 @@ msgstr "'Dashboard' führt Sie zum regulären Dashboard der Webseite."
 
 #: wp-admin/network/settings.php:140
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
-msgstr "Erlauben Sie Administratoren der jeweiligen Webseite das Hinzufügen von neuen Benutzern zu ihrer Webseite direkt über „Benutzer &rarr; Hinzufügen“."
+msgstr "Erlauben Sie Administratoren der jeweiligen Webseite das Hinzufügen von neuen Benutzern zu ihrer Webseite direkt über \"Benutzer &rarr; Hinzufügen\"."
 
 #: wp-admin/network/settings.php:266
 msgid "Language Settings"
@@ -373,7 +383,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank\">D
 
 #: wp-admin/network/site-themes.php:17
 msgid "You do not have sufficient permissions to manage themes for this site."
-msgstr "Sie haben nicht die erforderlichen Rechte, um Themes für diese Seite zu verwalten."
+msgstr "Sie haben nicht die erforderlichen Rechte, um Themes für diese Webseite zu verwalten."
 
 #: wp-admin/network/site-new.php:104
 msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
@@ -381,7 +391,7 @@ msgstr "Die Webseite wurde hinzugefügt. <a href=\"%1$s\">Zum Dashboard der Webs
 
 #: wp-admin/network/sites.php:31
 msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
-msgstr "Neu 'Hinzufügen' bringt Sie in den 'Neue Webseite hinzufügen'-Bereich. Dort können Sie nach den Webseiten nach der ID-Nummer, Titel oder IP-Adresse suchen. Die Optionen lassen Sie auswählen, wie viele Einträge pro Seite dargestellt werden."
+msgstr "Neu 'Hinzufügen' bringt Sie in den 'Neue Webseite hinzufügen'-Bereich. Dort können Sie nach den Webseiten, nach der ID-Nummer, Titel oder IP-Adresse suchen. Die Optionen lassen Sie auswählen, wie viele Einträge pro Seite dargestellt werden."
 
 #: wp-admin/network/user-new.php:17
 msgid "You do not have sufficient permissions to add users to this network."
@@ -704,12 +714,12 @@ msgstr "Es wird ein neuer Benutzer angelegt, sofern nicht schon ein Benutzer mit
 #: wp-admin/network/sites.php:36
 msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
 msgstr ""
-"Die Möglichkeit, eine Webseite zu deaktivieren, zu archivieren, oder als SPAM zu markieren. \n"
-"Deaktivieren entspricht dabei der Löschung der Webseite durch seinen Besitzer. Archivieren bietet die Möglichkeit, einen Blog vorrübergehend nicht erreichbar zu machen und anschließend wieder zu aktivieren."
+"Die Möglichkeit, eine Webseite zu <em>deaktivieren</em>, zu <em>archivieren</em>, oder <em>als SPAM zu markieren</em>. \n"
+"<em>Deaktivieren</em> bedeutet, die Webseite vorübergehend nicht erreichbar zu machen. <em>Archivieren</em> ist quasi dasselbe, dies wird in der Regel nur verwendet, wenn eine Webseite länger deaktiviert wird, oder evtl. gelöscht werden soll. <em>Als SPAM markieren</em>, bedeutet die Spam-Registrierung der Webseite zur Löschung vorzuschlagen und entsprechend in den Papierkorb zu verschieben."
 
 #: wp-admin/network/sites.php:39
 msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
-msgstr "Die Webseiten-ID (Blog-ID) wird nur intern genutzt und wird nicht öffentlich angezeigt."
+msgstr "Die Webseiten-ID (Blog-ID) wird nur intern genutzt und wird nicht öffentlich angezeigt und ist auch Benutzern/ Besuchern nicht zugänglich."
 
 #: wp-admin/network/sites.php:33
 msgid "Hovering over each site reveals seven options (three for the primary site):"
@@ -736,7 +746,7 @@ msgstr ""
 
 #: wp-admin/network/sites.php:38
 msgid "Visit to go to the frontend site live."
-msgstr "Besuchen, um die Webseite direkt anzusehen."
+msgstr "'Webseite anzeigen', um die Webseite direkt anzusehen."
 
 #: wp-admin/network/settings.php:29
 msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
@@ -744,7 +754,7 @@ msgstr "Die Werte bei \"Einstellungen für neue Webseiten\" werden immer dann an
 
 #: wp-admin/network/themes.php:209
 msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
-msgstr "Auf dieser Seite können Sie festlegen, welche Themes zur Benutzung durch die Webseiten im Netzwerk zur Verfügung stehen. Es aktiviert oder deaktiviert jedoch nicht das jeweils in einer Webseite genutzte Theme."
+msgstr "Auf dieser Seite können Sie festlegen, welche Themes für die Webseiten im Netzwerk zur Verfügung stehen. Damit wird jedoch nicht das entsprechende Theme für die jeweilige Webseite aktiviert bzw. deaktiviert."
 
 #: wp-admin/network/themes.php:210
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
@@ -752,7 +762,7 @@ msgstr "Wenn Sie ein Theme deaktivieren, obwohl es in Benutzung ist, kann es sei
 
 #: wp-admin/network/settings.php:26
 msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
-msgstr "In diesem Bildschirm werden die Einstellungen für das gesamte Blog-Netzwerk verwaltet. Der zuerst (bei der Installation von WordPress) erstellte Blog, ist der Hauptblog. Von diesem wurden auch die ersten Einstellungen übernommen."
+msgstr "In diesem Bildschirm werden die Einstellungen für das gesamte Webseiten-Netzwerk verwaltet. Die zuerst (bei der Installation von WordPress) erstellte Webseite, ist die sogenannte Haupt-Webseite. Von dieser wurden auch die ersten Einstellungen übernommen."
 
 #: wp-admin/network/settings.php:28
 msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
@@ -808,11 +818,11 @@ msgstr "Warnung! Problem beim Aktualisieren von %1$s. Vermutlich konnte sich der
 
 #: wp-admin/network/settings.php:161
 msgid "If you want to limit site registrations to certain domains. One domain per line."
-msgstr "Falls Sie die Registrierung für bestimmte E-Mail-Domains (z.B. <em>beispiel.de</em>) beschränken wollen, verwenden Sie pro Domain eine Zeile."
+msgstr "Falls Sie die Registrierung nur von bestimmten E-Mail-Domains (z.B. <em>beispiel.de</em>, <em>beispiel-zwei.de</em> etc.) zulassen wollen, verwenden Sie pro Domain eine Zeile."
 
 #: wp-admin/network/settings.php:171
 msgid "If you want to ban domains from site registrations. One domain per line."
-msgstr "Falls Sie für bestimmte E-Mail-Domains (z.B. <em>example.com</em>) die Registrierung verbieten möchten, nutzen Sie pro Domain eine Zeile."
+msgstr "Falls Sie für bestimmte E-Mail-Domains (z.B. <em>beispiel.de</em>, <em>gmx.de</em>, <em>web.de</em> etc.) die Registrierung komplett verbieten möchten, verwenden Sie pro Domain eine Zeile."
 
 #: wp-admin/network/settings.php:121
 msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
@@ -892,7 +902,7 @@ msgstr "Beim Erstellen des Benutzers ist ein Fehler aufgetreten."
 
 #: wp-admin/network/sites.php:62 wp-admin/network/sites.php:137
 msgid "You are not allowed to change the current site."
-msgstr "Sie haben nicht das Recht, Änderungen an dieser Webseite vorzunehmen."
+msgstr "Sie haben keine Berechtigung, Änderungen an dieser Webseite vorzunehmen."
 
 #: wp-admin/network/settings.php:257
 msgctxt "File size in kilobytes"
@@ -1005,11 +1015,11 @@ msgstr "Webseite-Speicherplatz"
 
 #: wp-admin/network/settings.php:133
 msgid "Send the network admin an email notification every time someone registers a site or user account."
-msgstr "Senden Sie dem Administrator des Webseiten-Netzwerks jedes mal eine E-Mail, wenn jemand eine neue (Unter-) Webseite oder Benutzernamen anlegt."
+msgstr "Dem Administrator des Webseiten-Netzwerks jedes mal eine E-Mail senden, wenn jemand eine neue (Unter-) Webseite oder ein Benutzerkonto anlegt."
 
 #: wp-admin/network/settings.php:149
 msgid "Users are not allowed to register these sites. Separate names by spaces."
-msgstr "Benutzer dürfen diese Namen nicht als Webseitenadresse verwenden. Trennen Sie die einzelnen Namen mit einem Leerzeichen."
+msgstr "Benutzer dürfen diese Namen bzw. Adressbestandteile nicht in der Webseiten-Adresse (URL) verwenden. Trennen Sie die einzelnen Begriffe mit einem Leerzeichen."
 
 #: wp-admin/network/upgrade.php:75
 msgid "Next Sites"
@@ -1052,7 +1062,7 @@ msgstr "Neue Benutzer hinzufügen"
 
 #: wp-admin/network/settings.php:145
 msgid "Banned Names"
-msgstr "Verbotene Namen"
+msgstr "Verbotene Namen/ Adressbestandteile"
 
 #: wp-admin/network/settings.php:154
 msgid "Limited Email Registrations"

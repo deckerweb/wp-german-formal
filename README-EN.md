@@ -12,12 +12,17 @@ Instead of the packaged language files that come with WordPress - DE Edition - t
 
 Those new language packs are based on the "official language packs" from the DE Edition in the formal version. However, the new language files were heavily modified and a lot of important strings and principals changed.
 
+**Essentials for the Translations (German only!)**
+1. [Translation guidelines: Übersetzungsprinzipien](https://github.com/deckerweb/wp-german-formal/wiki/%C3%9Cbersetzungsprinzipien)
+2. [Translation comparison: Begriffstabelle/ -Vergleich - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdFRjNzVQRkpYZ2lVRnozbmJXcEpQcmc&usp=sharing)
+3. [WordPress glossary: WordPress Glossar - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdHdTaEYxdDBTZU4tWEFtOTN0bnZKUlE&usp=sharing)
+
 ## Screenshots
 
-- Currently none. (Not relevant at the moment.) -
+Currently none. (Not relevant at the moment.)
 
 ## Requirements
- * WordPress 3.7 or higher
+ * WordPress 3.7 or higher (with that also PHP 5.2.4 or higher!)
  * Your WordPress install is already configured as German ('WPLANG' set to 'de_DE' in wp-config.php)
 
 ## Installation
@@ -57,6 +62,11 @@ This plugin supports the [GitHub Updater](https://github.com/afragen/github-upda
 This plugin has no settings at all because it currently doesn't need them! Just activate it and it will serve you up proper translations! ;-)
 
 Maybe in future versions some admin sub page will be added with useful information and/or a few settings.
+
+## License
+
+GPL-2.0+
+see: [LICENSE file](https://github.com/deckerweb/wp-german-formal/blob/master/LICENSE)
 
 ## Credits
 

@@ -12,12 +12,17 @@ Lädt anstelle der "offiziellen deutschen Sprachdateien" (die mit der WordPress 
 
 Diese neuen Sprachdateien basieren auf den "offiziellen Sprachdateien" aus der DE-Edition, in der Sie-Anrede. Sie wurden jedoch (nahezu) komplett überarbeitet und teilweise stark verändert.
 
+**Grundlegendes**
+1. [Übersetzungsprinzipien](https://github.com/deckerweb/wp-german-formal/wiki/%C3%9Cbersetzungsprinzipien)
+2. [Begriffstabelle/ -Vergleich - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdFRjNzVQRkpYZ2lVRnozbmJXcEpQcmc&usp=sharing)
+3. [WordPress Glossar - extern, via Google Docs](https://docs.google.com/spreadsheet/ccc?key=0AsdlEocpfc1CdHdTaEYxdDBTZU4tWEFtOTN0bnZKUlE&usp=sharing)
+
 ## Screenshots
 
-- derzeit keine -
+Derzeit keine. (Im Moment nicht relevant.)
 
 ## Anfoderungen
-* WordPress 3.7 oder höher
+* WordPress Version 3.7 oder höher (damit auch PHP 5.2.4 oder höher!)
 * Ihre WordPress-Installation ist bereits auf deutsch eingestellt ('WPLANG' auf 'de_DE' in der wp-config.php)
 
 ## Installation
@@ -55,6 +60,11 @@ Dieses Plugin unterstützt das Updater-Plugin für GitHub: [GitHub Updater](http
 Das Plugin hat keine Einstellungen. Es wird einfach aktiviert und verrichtet lautlos seinen Dienst. :)
 
 Für die Zukunft ist eventuell eine Unterseite im Adminbereich mit Informationen bzw. einigen Einstellungen geplant. Wann das geschehen wird, ist derzeit völlig offen.
+
+## Lizenz
+
+GPL-2.0+
+siehe: [LICENSE Datei](https://github.com/deckerweb/wp-german-formal/blob/master/LICENSE)
 
 ## Credits
 

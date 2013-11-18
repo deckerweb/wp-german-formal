@@ -14,7 +14,7 @@
  * Plugin Name:       WP German Formal
  * Plugin URI:        http://genesisthemes.de/en/wp-plugins/wp-german-formal/
  * Description:       Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin.
- * Version:           1.0.0
+ * Version:           0.9.0
  * Author:            David Decker - DECKERWEB
  * Author URI:        http://deckerweb.de/
  * License:           GPL-2.0+
@@ -66,7 +66,7 @@ define( 'WPGF_PLUGIN_DIR', trailingslashit( dirname( __FILE__ ) ) );
 define( 'WPGF_PLUGIN_BASEDIR', trailingslashit( dirname( plugin_basename( __FILE__ ) ) ) );
 
 /** Set constant path to the Plugin URI */
-//define( 'WPGF_PLUGIN_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
+define( 'WPGF_PLUGIN_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 
 
 add_action( 'init', 'ddw_wpgf_init', 1 );

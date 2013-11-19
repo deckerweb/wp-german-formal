@@ -1,0 +1,46 @@
+# This file is distributed under the same license as the WP German Formal package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-11-19 23:23:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WP German Formal\n"
+
+#: wp-german-formal.php:129
+msgid "However, if you were/ are originally using a localized version of WordPress, let's say with German language pack, you can update your WordPress install like normal. It will also update the default (a.k.a. packaged) language packs. Since you have the above mentioned plugin active, the language packs from that plugin will be loaded and displayed. To have the default translations displayed you must deactivate the mentioned plugin."
+msgstr ""
+
+#: wp-german-formal.php:128
+msgid "You are currently have enabled the \"WP German Formal\" plugin to let load your translations for WordPress Core (global, admin, network admin). That is, generally speaking, perfectly fine. :) So thank you, first!"
+msgstr ""
+
+#: wp-german-formal.php:127
+msgid "Important info for \"WP German Formal\" plugin:"
+msgstr ""
+
+#: wp-german-formal.php:0
+msgid "1.0.3"
+msgstr ""
+
+#: wp-german-formal.php:0
+msgid "http://deckerweb.de/"
+msgstr ""
+
+#: wp-german-formal.php:0
+msgid "David Decker - DECKERWEB"
+msgstr ""
+
+#: wp-german-formal.php:0
+msgid "Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin."
+msgstr ""
+
+#: wp-german-formal.php:0
+msgid "http://genesisthemes.de/en/wp-plugins/wp-german-formal/"
+msgstr ""
+
+#: wp-german-formal.php:0
+msgid "WP German Formal"
+msgstr ""

@@ -4,6 +4,12 @@
 # Weitere deutsche Sprachdateien WordPress sowie Plugins und Themes sind hier zu finden:
 # --> http://deckerweb.de/sprachdateien/
 #
+# This German Language File: Copyright (C) 2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the WP German Formal Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WordPress sowie Plugins und Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: WP German Formal v1.0.3\n"

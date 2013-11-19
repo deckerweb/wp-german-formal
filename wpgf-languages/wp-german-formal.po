@@ -22,7 +22,7 @@ msgid "Important info for \"WP German Formal\" plugin:"
 msgstr ""
 
 #: wp-german-formal.php:0
-msgid "1.0.3"
+msgid "1.0.4"
 msgstr ""
 
 #: wp-german-formal.php:0

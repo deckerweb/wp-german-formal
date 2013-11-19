@@ -4,7 +4,7 @@ Donate link: http://genesisthemes.de/en/donate/
 Tags: wordpress, translations, german, deutsch, de_DE, core, admin, network admin, multisite, deckerweb
 Requires at least: 3.7
 Tested up to: 3.7.1
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPL-2.0+
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
@@ -172,7 +172,7 @@ EN: Currently none. (Not relevant at the moment.)
 
 == Changelog ==
 
-= 1.0.4 (2013-11-20) =
+= 1.0.5 (2013-11-20) =
 * DE:
  * Sprachdateien für 2 WordPress-Hauptversionen nun möglich (z.B. für 3.7 und 3.8) - kann nützlich sein für Aktualisierungen, zum Testen usw.
  * Übersetzungen auf aktuellstem Stand, 20.11.2013
@@ -197,7 +197,7 @@ EN: Currently none. (Not relevant at the moment.)
 
 == Upgrade Notice ==
 
-= 1.0.3 =
+= 1.0.5 =
 DE: Sprachdateien für 2 WordPress-Hauptversionen möglich. Readme.txt hinzugefügt. // EN: Language packs for 2 major versions of WordPress possible. Added readme.txt file.
 
 = 1.0.2 =

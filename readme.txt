@@ -4,7 +4,7 @@ Donate link: http://genesisthemes.de/en/donate/
 Tags: wordpress, translations, german, deutsch, de_DE, core, admin, network admin, multisite, deckerweb
 Requires at least: 3.7
 Tested up to: 3.7.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPL-2.0+
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
@@ -142,7 +142,7 @@ Check out the Codex for more information about [installing plugins manually](htt
 * WordPress 3.7 or higher (with that also PHP 5.2.4 or higher!)
 * Your WordPress install is already configured as German ('WPLANG' set to 'de_DE' in wp-config.php)
 
-**Note for own translation/wording:** For custom and update-secure language files please upload them to `/wp-content/languages/wp-german-formal/` (just create this folder) - This enables you to use fully custom translations that won't be overridden on plugin updates. Also, complete custom English wording is possible with that, just use a language file like `wp-german-formal-en_US.mo/.po` to achieve that (for creating one see the tools on "Other Notes").
+**Note for own translation/wording:** For custom and update-secure language files please upload them to `/wp-content/languages/wpgf-languages/` (just create this folder) - This enables you to use fully custom translations that won't be overridden on plugin updates. Also, complete custom English wording is possible with that, just use a language file like `wp-german-formal-en_US.mo/.po` to achieve that (for creating one see the tools on "Other Notes").
 
 
 == Frequently Asked Questions ==
@@ -172,6 +172,16 @@ EN: Currently none. (Not relevant at the moment.)
 
 == Changelog ==
 
+= 1.0.3 (2013-11-20) =
+* DE:
+ * Sprachdateien für 2 WordPress-Hauptversionen nun möglich (z.B. für 3.7 und 3.8) - kann nützlich sein für Aktualisierungen, zum Testen usw.
+ * Übersetzungen auf aktuellstem Stand, 20.11.2013
+ * Readme.txt Datei hinzugefügt (sinnvoll für WordPress-Ökosystem).
+* EN:
+ * Language packs for 2 major versions of WordPress are now possible (for example: 3.7 and 3.8) - could be useful for Updates, for testing etc.
+ * Translations of current state, as of 2013-11-20
+ * Added readme.txt file (useful for WordPress ecosystem).
+
 = 1.0.2 (2013-11-18) =
 * DE:
  * Erste öffentliche stabile Version
@@ -186,6 +196,9 @@ EN: Currently none. (Not relevant at the moment.)
 
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+DE: Sprachdateien für 2 WordPress-Hauptversionen möglich. Readme.txt hinzugefügt. // EN: Language packs for 2 major versions of WordPress possible. Added readme.txt file.
 
 = 1.0.2 =
 DE: Erste öffentliche stabile Version. // EN: First public stable release.
@@ -221,7 +234,7 @@ EN: Enjoy using *WP German Formal*? Please consider [making a small donation](ht
 
 * English - default, always included
 * German (de_DE): Deutsch - immer dabei! [Download auch via deckerweb.de](http://deckerweb.de/sprachdateien/wordpress-plugins/#wp-german-formal)
-* For custom and update-secure language files please upload them to `/wp-content/languages/wp-german-formal/` (just create this folder) - This enables you to use fully custom translations that won't be overridden on plugin updates. Also, complete custom English wording is possible with that, just use a language file like `wp-german-formal-en_US.mo/.po` to achieve that (for creating one see the following tools).
+* For custom and update-secure language files please upload them to `/wp-content/languages/wpgf-languages/` (just create this folder) - This enables you to use fully custom translations that won't be overridden on plugin updates. Also, complete custom English wording is possible with that, just use a language file like `wp-german-formal-en_US.mo/.po` to achieve that (for creating one see the following tools).
 
 **Easy plugin translation platform with GlotPress tool:** [**Translate "WP German Formal"...**](http://translate.wpautobahn.com/projects/wordpress-plugins-deckerweb/wp-german-formal)
 

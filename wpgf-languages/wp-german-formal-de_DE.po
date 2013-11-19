@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WP German Formal v1.0.2\n"
+"Project-Id-Version: WP German Formal v1.0.3\n"
 "Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
 "POT-Creation-Date: 2013-11-14 21:40:32+0000\n"
-"PO-Revision-Date: 2013-11-19 00:18+0100\n"
+"PO-Revision-Date: 2013-11-20 00:18+0100\n"
 "Last-Translator: David Decker <http://deckerweb.de/kontakt/>\n"
 "Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
 "MIME-Version: 1.0\n"
@@ -62,8 +62,8 @@ msgstr "http://deckerweb.de/"
 # @ wp-german-formal
 #. translators: plugin header field 'Version'
 #: wp-german-formal.php:0
-msgid "1.0.2"
-msgstr "1.0.2"
+msgid "1.0.3"
+msgstr "1.0.3"
 
 # @ wp-german-formal
 #: wp-german-formal.php:127

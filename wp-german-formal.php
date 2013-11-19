@@ -68,6 +68,15 @@ define( 'WPGF_PLUGIN_BASEDIR', trailingslashit( dirname( plugin_basename( __FILE
 /** Set constant path to the Plugin URI */
 define( 'WPGF_PLUGIN_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 
+/**
+ * Helper constant for next major WordPress Version AFTER the current one.
+ * CURRENT: 3.7
+ * FUTURE: 3.8
+ *
+ * @since 1.0.3
+ */
+define( 'WPGF_WPJUMP_VERSION', '3.7.99' );
+
 
 add_action( 'init', 'ddw_wpgf_init', 1 );
 /**
@@ -115,15 +124,20 @@ function ddw_wpgf_init() {
  *    It checks first in a subfolder of WP_LANG_DIR, then it falls back to our
  *    plugin subfolder to load the plugin's packaged translations.
  *
- * @since 1.0.0
+ * @since  1.0.0
  *
- * @uses  get_locale()
- * @uses  load_textdomain()
+ * @uses   get_locale()
+ * @uses   load_textdomain()
  *
- * @param string $domain
- * @param string $key
+ * @param  string $domain
+ * @param  string $key
+ *
+ * @global string $wp_version
  */
 function ddw_wpgf_load_textdomain( $domain, $key ) {
+
+	/** Get global */
+	global $wp_version;
 
 	/** Get locale setting */
 	$locale = get_locale();
@@ -132,23 +146,32 @@ function ddw_wpgf_load_textdomain( $domain, $key ) {
 	$custom_slug = 'ddw';  // 'wp-custom';
 	$custom_slug = apply_filters( 'wpgf_filter_wplangdir_custom_slug', $custom_slug );
 
-	/** First, look with subfolder of WP_LANG_DIR */
-	$mofile_wp_lang_dir = trailingslashit( WP_LANG_DIR ) . esc_attr( $custom_slug ) . '/' . esc_attr( $key ) . '-' . $locale . '.mo';
-	
-	/** Second, fallback to plugin's /pomo/ folder */
+	/** Enable version jumping - for updates, testing and such... :) */
+	$wpjump_slug = ( version_compare( $wp_version, WPGF_WPJUMP_VERSION, '>=' ) ) ? 'future' : '/';
+
+	/**
+	 * First, look with subfolder of WP_LANG_DIR
+	 * Example: wp-content/languages/ddw/{future}/admin-de_DE.mo
+	 */
+	$mofile_wp_lang_dir = trailingslashit( WP_LANG_DIR ) . trailingslashit( esc_attr( $custom_slug ) ) . trailingslashit( $wpjump_slug ) . esc_attr( $key ) . $locale . '.mo';
+
+	/**
+	 * Second, fallback to plugin's /pomo/ folder
+	 * Pattern: wp-content/plugins/wp-german-formal/wp-pomo/{future}/admin-de_DE.mo
+	 */
 	$plugindir_slug = apply_filters(
 		'wpgf_filter_plugindir_slug',
 		trailingslashit( dirname( plugin_basename( __FILE__ ) ) )
 	);
 
-	$mofile_plugin_dir = trailingslashit( WP_PLUGIN_DIR ) . $plugindir_slug . 'wp-pomo/' . esc_attr( $key ) . '-' . $locale . '.mo';
+	$mofile_plugin_dir = trailingslashit( WP_PLUGIN_DIR ) . $plugindir_slug . 'wp-pomo/' . trailingslashit( $wpjump_slug ) . esc_attr( $key ) . $locale . '.mo';
 
 	/** Loading logic, file check */
 	if ( is_readable( $mofile_wp_lang_dir ) ) {
 
 		load_textdomain( esc_attr( $domain ), $mofile_wp_lang_dir );
 
-	} else {
+	} elseif ( is_readable( $mofile_plugin_dir ) ) {
 
 		load_textdomain( esc_attr( $domain ), $mofile_plugin_dir );
 
@@ -189,7 +212,7 @@ function ddw_wpgf_load_default_textdomain() {
 		|| ( defined( 'WP_REPAIRING' ) && WP_REPAIRING )
 	) {
 
-		ddw_wpgf_load_textdomain( 'default', 'admin' );
+		ddw_wpgf_load_textdomain( 'default', 'admin-' );
 
 	}  // end if
 
@@ -198,7 +221,7 @@ function ddw_wpgf_load_default_textdomain() {
 		|| ( defined( 'WP_INSTALLING_NETWORK' ) && WP_INSTALLING_NETWORK )
 	) {
 
-		ddw_wpgf_load_textdomain( 'default', 'admin-network' );
+		ddw_wpgf_load_textdomain( 'default', 'admin-network-' );
 
 	}  // end if
 

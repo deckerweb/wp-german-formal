@@ -1,0 +1,505 @@
+# Translation of 01.2014 Twenty Fourteen (.org) in German
+# This file is distributed under the same license as the 01.2014 Twenty Fourteen (.org) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-12-07 21:19+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"Project-Id-Version: 01.2014 Twenty Fourteen (.org)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: David Decker <http://deckerweb.de/kontakt/>\n"
+"Language-Team: \n"
+
+# syle header:
+#: style.css:0
+msgid "0.1"
+msgstr "0.1"
+
+#: style.css:0
+msgid ""
+"In 2014, our default theme lets you create a responsive magazine website "
+"with a sleek, modern design. Feature your favorite homepage content in "
+"either a grid or a slider. Use the three widget areas to customize your "
+"website, and change your content’s layout with a full width page template "
+"and a contributor page to show of your authors. Creating a magazine website "
+"with WordPress has never been easier."
+msgstr ""
+"Mit unserem Standard-Theme für das Jahr 2014 können Sie eine responsive, "
+"Magazin-orientierte Webseite im eleganten modernen Design erstellen. Heben "
+"Sie Ihre besten Inhalte auf der Startseite mit einer Rasteransicht oder "
+"Slider-Präsentation hervor. Verwenden Sie drei Widgetbereiche, um Ihre "
+"Webseite zu individualisieren. Ändern Sie das Inhaltslayout via Seiten-"
+"Template \"in voller Breite\" oder stellen Sie die Autoren mit dem \"Autoren"
+"\" Seiten-Template vor. Eine Magazin-orientierte Webseite mit WordPress zu "
+"erstellen, war nie schneller und einfacher! :)"
+
+#: style.css:0
+msgid ""
+"black, green, white, light, dark, two-columns, three-columns, left-sidebar, "
+"right-sidebar, fixed-layout, responsive-layout, custom-background, custom-"
+"header, custom-menu, editor-style, featured-images, flexible-header, full-"
+"width-template, microformats, post-formats, rtl-language-support, sticky-"
+"post, theme-options, translation-ready, accessibility-ready"
+msgstr ""
+"schwarz, grün, weiß, hell, dunkel, zweispaltig, dreispaltig, linke Sidebar, "
+"rechte Sidebar, feste Breite, responsives Layout, eigenes Hintergrundbild, "
+"eigene Kopfzeile, individuelles Menü, Inhaltseditor-Stile, hervorgehobene "
+"Bilder, flexible Kopfzeile, Seiten-Template volle Inhaltsbreite, "
+"Mikroformate, Inhaltsformate, Unterstützung für semitische Sprachen, "
+"hervorgehobene Beiträge (sticky), Customizer bzw. Theme-Optionen, "
+"übersetzbar, Unterstützung für Barrierefreiheit"
+
+# regular strings:
+#: 404.php:17
+msgid "Not Found"
+msgstr "Seite bzw. Inhalt nicht gefunden"
+
+#: inc/customizer.php:31
+msgid "Display Site Title &amp; Tagline"
+msgstr "Webseitentitel &amp; Slogan anzeigen"
+
+#: inc/customizer.php:101
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by the <a href=\"%1$s\">featured</a> tag; you "
+"can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; "
+"Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> "
+"will be displayed instead."
+msgstr ""
+"Die Startseite hebt bis zu sechs von Ihnen ausgewählte Beiträge prominent "
+"hervor - in Raster-Layout oder als Slider-Präsentation. Dies wird über ein "
+"sogenanntes <a href=\"%1$s\">extra Schlagwort (sogen. \"featured\" - "
+"hervorgehoben/ empfohlen)</a> kontrolliert, welches Sie, wie das Layout, via "
+"<a href=\"%2$s\">Design &rarr; Anpassen</a> festlegen können. Falls keine "
+"Beiträge dieses Schlagwort enthalten, werden stattdessen <a href=\"%3$s\">"
+"\"sticky\" (oben gehaltene) Beiträge</a> angezeigt."
+
+#: inc/customizer.php:103
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s"
+"\">Twenty Fourteen documentation</a>."
+msgstr ""
+"Für eine ausführliche Anleitung sowie weitere Tipps und tricks, besuchen Sie "
+"bitte die <a href=\"%s\">Twenty Fourteen Dokumentation (Engl.)</a>."
+
+#: archive.php:34
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/customizer.php:28
+msgid "Site Title Color"
+msgstr "Farbe Webseitentitel"
+
+#: inc/customizer.php:36
+msgid ""
+"Use a <a href=\"%1$s\"> tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+"Verwenden Sie ein <a href=\"%1$s\">Schlagwort</a>, um Ihre Beiträge "
+"hervorzuheben. Falls kein Beitrag mit diesem Schlagwort übereinstimmt, "
+"werden stattdessen <a href=\"%2$s\">\"sticky\" (oben gehaltene) Beiträge</a> "
+"angezeigt."
+
+#: inc/featured-content.php:409
+msgid ""
+"Use the <a href=\"%1$s\">\"featured\" tag</a> to feature your posts. You can "
+"change this to a tag of your choice; if no posts match the tag, <a href="
+"\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+"Verwenden Sie das <a href=\"%1$s\">extra Schlagwort</a> (sogen. \"featured\" "
+"- hervorgehoben/ empfohlen), um Ihre Beiträge hervorzuheben.  Sie können "
+"dieses Schlagwort beliebig festlegen. Falls keine Beiträge dieses Schlagwort "
+"enthalten, werden stattdessen <a href=\"%2$s\">\"sticky\" (oben gehaltene) "
+"Beiträge</a> angezeigt. "
+
+#: inc/featured-content.php:428
+msgid "Tag Name"
+msgstr "Schlagwort-Name"
+
+#: inc/featured-content.php:433
+msgid "Don&rsquo;t display tag on front end."
+msgstr "Nicht auf der Webseite anzeigen"
+
+#: functions.php:260
+msgid "Previous"
+msgstr "Zurück"
+
+#: functions.php:261
+msgid "Next"
+msgstr "Vor"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Leider existieren an dieser Stelle unter dieser Adresse keine Inhalte. "
+"Probieren Sie einfach eine Suchanfrage."
+
+#: author.php:31
+msgid "All posts by %s"
+msgstr "Alle Beiträge von %s"
+
+#: content-aside.php:17 content-audio.php:17 content-featured-post.php:28
+#: content-gallery.php:17 content-image.php:17 content-link.php:17
+#: content-quote.php:17 content-video.php:17 content.php:19
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: functions.php:186
+msgid "Additional sidebar that appears on the right."
+msgstr ""
+"Zusätzlicher Widgetbereich (Sidebar), der auf der rechten Seite erscheint."
+
+#: functions.php:193
+msgid "Footer Widget Area"
+msgstr "Fußzeilen-Widgetbereich"
+
+#: functions.php:195
+msgid "Appears in the footer section of the site."
+msgstr "Erscheint im Fußbereich der Webseite."
+
+#: functions.php:384
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] "%d Artikel"
+msgstr[1] "%d Artikel"
+
+#: image.php:65
+msgid "Previous Image"
+msgstr "Vorheriges Bild"
+
+#: image.php:66
+msgid "Next Image"
+msgstr "Nächstes Bild"
+
+#: inc/back-compat.php:41 inc/back-compat.php:53 inc/back-compat.php:68
+msgid ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+"Twenty Fourteen benötigt mindestens WordPress Version 3.6. Sie verwenden "
+"aktuell Version %s. Bitte aktualisieren Sie Ihre Installation und versuchen "
+"Sie es erneut."
+
+#: inc/customizer.php:19 inc/customizer.php:20
+msgid "Background may only be visible on wide screens."
+msgstr ""
+"Der Hintergrund könnte nur auf sehr großen bzw. Bildschirmen/ Displays "
+"sichtbar sein."
+
+#: inc/customizer.php:35 inc/featured-content.php:408
+msgid "Featured Content"
+msgstr "Hervorgehobene Inhalte"
+
+#: inc/customizer.php:47
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer.php:51
+msgid "Grid"
+msgstr "Raster"
+
+#: inc/customizer.php:52
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/customizer.php:102
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. Twenty "
+"Fourteen uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+"Werten Sie das Design Ihrer Webseite auf, indem Sie <a href=\"%s"
+"\">ausgewählte Bilder (sogen. Featured Images)</a> für Beiträge verwenden. "
+"Damit können Sie auch einen Beitrag mit einem Bild verknüpfen, <em>ohne</em> "
+"das Bild zusätzlich <em>in den Inhalt</em> einfügen zu müssen. Twenty "
+"Fourteen zeigt solche <em>ausgewählten Bilder</em> für Beiträge und Seiten "
+"jeweils über dem Titel an - sowie im Bereich der hervorgehobenen Inhalte auf "
+"der Startseite."
+
+#: inc/template-tags.php:55
+msgid "Posts navigation"
+msgstr "Beitragsnavigation"
+
+#: inc/template-tags.php:88
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">Veröffentlicht In</span>%title"
+
+#: inc/template-tags.php:90
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr "<span class=\"meta-nav\">Vorheriger Beitrag</span>%title"
+
+#: inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr "<span class=\"meta-nav\">Nächster Beitrag</span>%title"
+
+#: inc/widgets.php:44
+msgid "Twenty Fourteen Ephemera"
+msgstr "Twenty Fourteen Fundstücke"
+
+#: inc/widgets.php:46
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts"
+msgstr ""
+"Verwenden Sie dieses Widget, um Ihre neuesten Kurzmitteilungen, Zitate, "
+"Videobeiträge, Audiobeiträge, Bilder, Galerien oder Link-Beiträge anzuzeigen."
+
+#: inc/widgets.php:56 taxonomy-post_format.php:39
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/widgets.php:148
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural ""
+"This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] ""
+"Diese Galerie enthält <a href=\"%1$s\" rel=\"bookmark\">%2$s Foto</a>."
+msgstr[1] ""
+"Diese Galerie enthält <a href=\"%1$s\" rel=\"bookmark\">%2$s Fotos</a>."
+
+#: inc/widgets.php:189
+msgid "More %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Mehr %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/widgets.php:236
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets.php:239
+msgid "Number of posts to show:"
+msgstr "Anzahl anzuzeigender Beiträge:"
+
+#: inc/widgets.php:242
+msgid "Post format to show:"
+msgstr "Anzuzeigendes Inhaltsformat:"
+
+msgid "Contributor Page"
+msgstr "Autoren-Seite"
+
+#: inc/template-tags.php:84
+msgid "Post navigation"
+msgstr "Beitragsnavigation"
+
+#: inc/template-tags.php:47
+msgid "&larr; Previous"
+msgstr "&larr; Zurück"
+
+#: inc/template-tags.php:48
+msgid "Next &rarr;"
+msgstr "Vor &rarr;"
+
+#: inc/template-tags.php:110
+msgid "Sticky"
+msgstr "Sticky"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: content-none.php:18
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Sind Sie bereit, um Ihren ersten Beitrag zu veröffentlichen? <a href=\"%1$s"
+"\">Starten Sie hier </a>."
+
+#: content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Es konnten leider keine Inhalte für Ihre Suchkriterien gefunden werden. "
+"Bitte probieren Sie eine neue Suche mit anderen Begriffen bzw. Schreibweisen."
+
+#: content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Leider konnten die gewünschten Inhalte nicht gefunden werden. Vielleicht "
+"probieren Sie eine Suchanfrage?"
+
+#: inc/widgets.php:55 taxonomy-post_format.php:36
+msgid "Videos"
+msgstr "Videos"
+
+#: inc/widgets.php:54 taxonomy-post_format.php:33
+msgid "Images"
+msgstr "Bilder"
+
+#: inc/widgets.php:59 taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr "Galerien"
+
+#: inc/widgets.php:53 taxonomy-post_format.php:30
+msgid "Asides"
+msgstr "Kurzmitteilungen"
+
+#: inc/widgets.php:58 taxonomy-post_format.php:45
+msgid "Links"
+msgstr "Links"
+
+#: inc/widgets.php:57 taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr "Zitate"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: inc/customizer.php:98
+msgid "Twenty Fourteen"
+msgstr "Twenty Fourteen"
+
+msgid "http://wordpress.org/themes/"
+msgstr "http://wordpress.org/themes/"
+
+msgid "the WordPress team"
+msgstr "das WordPress Team"
+
+msgid "Full Width Page"
+msgstr "Voller Inhaltsbreite"
+
+#: category.php:20
+msgid "Category Archives: %s"
+msgstr "Kategorie-Archiv: %s"
+
+#: tag.php:22
+msgid "Tag Archives: %s"
+msgstr "Schlagwort-Archiv: %s"
+
+#: archive.php:31
+msgid "Daily Archives: %s"
+msgstr "Tagesarchiv für %s"
+
+#: archive.php:34
+msgid "Monthly Archives: %s"
+msgstr "Monatsarchiv für %s"
+
+#: archive.php:37
+msgid "Yearly Archives: %s"
+msgstr "Jahresarchiv für %s"
+
+#: archive.php:40 taxonomy-post_format.php:51
+msgid "Archives"
+msgstr "Archiv"
+
+#: comments.php:27
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &bdquo;%2$s&ldquo;"
+msgstr[1] "%1$s Gedanken zu &bdquo;%2$s&ldquo;"
+
+#: comments.php:34 comments.php:52
+msgid "Comment navigation"
+msgstr "Kommentarnavigation"
+
+#: comments.php:35 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: comments.php:36 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: content-aside.php:48 content-audio.php:48 content-gallery.php:48
+#: content-image.php:48 content-link.php:48 content-page.php:22
+#: content-quote.php:48 content-video.php:48 content.php:56 image.php:54
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-aside.php:40 content-audio.php:40 content-gallery.php:40
+#: content-image.php:40 content-link.php:40 content-page.php:28
+#: content-quote.php:40 content-video.php:40 content.php:42 image.php:34
+#: page-templates/contributors.php:35
+msgid "Edit"
+msgstr "(Bearbeiten)"
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:38 inc/widgets.php:180
+msgid "Leave a comment"
+msgstr "Hinterlassen Sie einen Kommentar"
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:38 inc/widgets.php:180
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:38 inc/widgets.php:180
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: content-aside.php:46 content-audio.php:46 content-gallery.php:46
+#: content-image.php:46 content-link.php:46 content-quote.php:46
+#: content-video.php:46 content.php:54 inc/widgets.php:113 inc/widgets.php:158
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:21
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:21
+msgid "Proudly powered by %s"
+msgstr "Stolz präsentiert von %s"
+
+#: functions.php:83
+msgid "Top primary menu"
+msgstr "Hauptmenü oben"
+
+#: functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr "Zweitmenü linke Sidebar"
+
+#: functions.php:175
+msgid "Primary Sidebar"
+msgstr "Haupt-Sidebar"
+
+#: functions.php:177
+msgid "Main sidebar that appears on the left."
+msgstr "Haupt-Sidebar, die auf der linken Seite erscheint."
+
+#: functions.php:184
+msgid "Content Sidebar"
+msgstr "Inhalts-Sidebar"
+
+#: functions.php:217
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:500
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: header.php:48
+msgid "Search"
+msgstr "Suchen"
+
+#: header.php:52
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: header.php:53
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"

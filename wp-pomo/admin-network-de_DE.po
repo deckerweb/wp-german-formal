@@ -502,7 +502,7 @@ msgstr "Eine bestehende WordPress Netzwerk-Installation wurde erkannt."
 
 #: wp-admin/network.php:352
 msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
-msgstr "Bitte schliessen Sie die Konfigurationsschritte ab. Um ein neues Netzwerk zu erstellen müssen Sie Ihre Datenbank bereinigen und die Netzwerk-Datenbank-Tabellen entfernen oder leeren."
+msgstr "Bitte schließen Sie die Konfigurationsschritte ab. Um ein neues Netzwerk zu erstellen müssen Sie Ihre Datenbank bereinigen und die Netzwerk-Datenbank-Tabellen entfernen oder leeren."
 
 #: wp-admin/network.php:363
 msgid "Enabling the Network"

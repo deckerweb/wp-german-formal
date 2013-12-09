@@ -64,6 +64,8 @@ This plugin has no settings at all because it currently doesn't need them! Just 
 
 Maybe in future versions some admin sub page will be added with useful information and/or a few settings.
 
+For Multisite installs a Network activation of the plugin is recommended.
+
 ## License
 
 GPL-2.0+

@@ -1326,7 +1326,7 @@ msgstr "Alle Kategorien"
 
 #: wp-includes/script-loader.php:109 wp-includes/script-loader.php:240
 msgid "Dismiss"
-msgstr "Ablehnen"
+msgstr "Ausblenden"
 
 #: wp-content/plugins/akismet/legacy.php:176 wp-includes/admin-bar.php:674
 #: wp-includes/class-wp-editor.php:887 wp-includes/default-widgets.php:194
@@ -1883,7 +1883,7 @@ msgstr "Uploadlimit erreicht"
 
 #: wp-includes/media-template.php:93
 msgid "Maximum upload file size: %d%s."
-msgstr "Maximale Dateigröße für Upload: %d%s."
+msgstr "Maximale Dateigröße fürs Hochladen: %d%s."
 
 #: wp-includes/media-template.php:111
 msgid "Dismiss Errors"
@@ -3410,7 +3410,7 @@ msgstr "Hilfe (ALT + Großschreibung + H)"
 
 #: wp-includes/admin-bar.php:147
 msgid "Howdy, %1$s"
-msgstr "Willkommen, %1$s"
+msgstr "Angemeldet: %1$s"
 
 #: wp-includes/class-wp-editor.php:693
 msgid "Exit fullscreen"
@@ -3753,7 +3753,7 @@ msgstr "Spam"
 
 #: wp-content/plugins/akismet/admin.php:573
 msgid "There's nothing in your <a href='%1$s'>spam queue</a> at the moment."
-msgstr "Zurzeit befindet sich nichts in der <a href='%1$s'>Spam-Warteschlange</a>."
+msgstr "Derzeit befindet sich nichts in der <a href='%1$s'>Spam-Warteschlange</a>."
 
 #: wp-content/plugins/akismet/admin.php:442
 msgid "Cleared by Akismet"
@@ -4423,7 +4423,7 @@ msgstr "Diese Seite ist valide als XHTML 1.0 Transitional."
 
 #: wp-includes/theme-compat/comments-popup.php:103
 msgid "Sorry, the comment form is closed at this time."
-msgstr "Entschuldigung, das Kommentarformular ist zurzeit geschlossen."
+msgstr "Entschuldigung, das Kommentarformular ist derzeit geschlossen."
 
 #: wp-includes/theme-compat/comments-popup.php:14
 msgid "%1$s - Comments on %2$s"
@@ -4521,7 +4521,7 @@ msgstr "Überprüfen Sie den SPAM- bzw. Junk-Ordner Ihres E-Mail-Postfachs, da E
 
 #: wp-signup.php:668
 msgid "Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; registrations. To change or disable registration go to your <a href=\"%s\">Options page</a>."
-msgstr "Hallo, Administrator! Sie haben zurzeit das Registrieren von %s erlaubt. Um diese Einstellungen zu ändern, öffnen Sie die <a href=\"%s\">Einstellungen</a>."
+msgstr "Hallo, Administrator! Sie haben aktuell das Registrieren von %s erlaubt. Um diese Einstellungen zu ändern, öffnen Sie die <a href=\"%s\">Einstellungen</a>."
 
 #: wp-signup.php:191
 msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
@@ -4902,15 +4902,15 @@ msgstr "Wartungsmodus"
 
 #: wp-includes/load.php:177
 msgid "Briefly unavailable for scheduled maintenance. Check back in a minute."
-msgstr "Für kurze Zeit nicht verfügbar, um eine regelmäßige Instandhaltung durchzuführen. Prüfe in einer Minute erneut."
+msgstr "Diese Webseite für kurze Zeit nicht verfügbar, um geplante Wartungsarbeiten durchzuführen. Schauen Sie bitte in einigen Minuten erneut vorbei."
 
 #: wp-includes/post.php:98
 msgid "Navigation Menu Items"
-msgstr "Elemente des Navigations-Menüs"
+msgstr "Elemente des Navigationsmenüs"
 
 #: wp-includes/post.php:99
 msgid "Navigation Menu Item"
-msgstr "Element des Navigations-Menüs"
+msgstr "Element des Navigationsmenüs"
 
 #: wp-includes/taxonomy.php:68
 msgid "Navigation Menus"
@@ -4930,7 +4930,7 @@ msgstr "Benutzerdefiniert"
 
 #: wp-includes/default-widgets.php:1141
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
-msgstr "Es wurden noch keine Menüs erstellt. <a href=\"%s\">Erstelle welche</a>."
+msgstr "Es wurden noch keine Menüs erstellt. <a href=\"%s\">Erstellen Sie ein erstes Menü</a>."
 
 #: wp-includes/script-loader.php:510
 msgid ""
@@ -4944,7 +4944,7 @@ msgstr "Dies ist der Kurzlink."
 
 #: wp-includes/update.php:477
 msgid "%d WordPress Update"
-msgstr "%d WordPress-Aktualisierung"
+msgstr "%d WordPress Aktualisierung"
 
 #: wp-includes/update.php:481
 msgid "%d Theme Update"
@@ -4976,7 +4976,7 @@ msgstr "Sie sind bereits Mitglied der folgenden Webseiten:"
 
 #: wp-includes/ms-load.php:102
 msgid "This site has not been activated yet. If you are having problems activating your site, please contact <a href=\"mailto:%1$s\">%1$s</a>."
-msgstr "Diese Site wurde noch nicht aktiviert. Wenn Sie Probleme mit der Aktivierung haben, kontaktieren Sie bitte <a href=\"mailto:%1$s\">%1$s</a>."
+msgstr "Diese Webseite wurde noch nicht aktiviert. Falls Sie Probleme mit der Aktivierung haben, kontaktieren Sie bitte <a href=\"mailto:%1$s\">%1$s</a>."
 
 #: wp-includes/script-loader.php:238
 msgid "File canceled."
@@ -5337,7 +5337,7 @@ msgstr "Seiten-IDs, durch Kommas getrennt."
 
 #: wp-includes/default-widgets.php:93
 msgid "Your blogroll"
-msgstr "Ihre Linkliste"
+msgstr "Eine Linkliste anzeigen."
 
 #: wp-includes/default-widgets.php:169
 msgid "Show Link Image"
@@ -5613,7 +5613,7 @@ msgstr "Abmelden"
 
 #: wp-includes/general-template.php:305 wp-login.php:852
 msgid "Remember Me"
-msgstr "Daten merken"
+msgstr "Daten merken <small>(14 Tage)</small>"
 
 #: wp-includes/general-template.php:383 wp-login.php:541 wp-login.php:621
 #: wp-login.php:696 wp-login.php:871
@@ -7317,8 +7317,8 @@ msgstr "Genehmige %s"
 #: wp-includes/pluggable.php:1185
 msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
-msgstr[0] "Zurzeit wartet %s Kommentar auf Freigabe. Bitte gehe zur Moderationsansicht:"
-msgstr[1] "Zurzeit warten %s Kommentare auf Freigabe. Bitte gehe zur Moderationsansicht:"
+msgstr[0] "Aktuell wartet %s Kommentar auf Freigabe. Bitte gehen Sie zur Moderationsansicht:"
+msgstr[1] "Aktuell warten %s Kommentare auf Freigabe. Bitte gehen Sie zur Moderationsansicht:"
 
 #: wp-includes/pluggable.php:1189
 msgid "[%1$s] Please moderate: \"%2$s\""

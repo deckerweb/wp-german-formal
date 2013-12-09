@@ -2,19 +2,19 @@
 /**
  * Main plugin file.
  * Load (custom) formal German translations for WordPress Core - Global, Admin
- *    and Network Admin.
+ *    and Network Admin, plus default themes.
  *
- * @package   WP German Formal
- * @author    David Decker
- * @copyright Copyright (c) 2013, David Decker - DECKERWEB
- * @license   GPL-2.0+
- * @link      http://deckerweb.de/twitter
+ * @package           WP German Formal
+ * @author            David Decker
+ * @copyright         Copyright (c) 2013, David Decker - DECKERWEB
+ * @license           GPL-2.0+
+ * @link              http://deckerweb.de/twitter
  *
  * @wordpress-plugin
  * Plugin Name:       WP German Formal
  * Plugin URI:        http://genesisthemes.de/en/wp-plugins/wp-german-formal/
- * Description:       Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin.
- * Version:           1.0.5
+ * Description:       Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin, plus default themes.
+ * Version:           1.0.6
  * Author:            David Decker - DECKERWEB
  * Author URI:        http://deckerweb.de/
  * License:           GPL-2.0+
@@ -49,7 +49,7 @@
  *
  * @since 1.0.0
  */
-if ( ! defined( 'ABSPATH' ) ) {
+if ( ! defined( 'WPINC' ) ) {
 	exit( 'Sorry, you are not allowed to access this file directly.' );
 }
 
@@ -75,7 +75,7 @@ define( 'WPGF_PLUGIN_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
  *
  * @since 1.0.3
  */
-define( 'WPGF_WPJUMP_VERSION', '3.7.99' );
+define( 'WPGF_WPJUMP_VERSION', '3.7.9999' );
 
 
 add_action( 'init', 'ddw_wpgf_init', 1 );
@@ -132,12 +132,9 @@ function ddw_wpgf_init() {
  * @param  string $domain
  * @param  string $key
  *
- * @global string $wp_version
+ * @global string $GLOBALS[ 'wp_version' ]
  */
 function ddw_wpgf_load_textdomain( $domain, $key ) {
-
-	/** Get global */
-	global $wp_version;
 
 	/** Get locale setting */
 	$locale = get_locale();
@@ -147,7 +144,7 @@ function ddw_wpgf_load_textdomain( $domain, $key ) {
 	$custom_slug = apply_filters( 'wpgf_filter_wplangdir_custom_slug', $custom_slug );
 
 	/** Enable version jumping - for updates, testing and such... :) */
-	$wpjump_slug = ( version_compare( $wp_version, WPGF_WPJUMP_VERSION, '>=' ) ) ? 'future' : '/';
+	$wpjump_slug = ( version_compare( $GLOBALS[ 'wp_version' ], WPGF_WPJUMP_VERSION, '>=' ) ) ? 'future' : '/';
 
 	/**
 	 * First, look with subfolder of WP_LANG_DIR
@@ -228,7 +225,48 @@ function ddw_wpgf_load_default_textdomain() {
 }  // end of function ddw_wp_load_default_textdomain
 
 
-add_action( 'core_upgrade_preamble', 'ddw_wpgf_update_info' );
+add_action( 'after_setup_theme', 'ddw_wpgf_load_default_themes_textdomain' );
+/**
+ * Re-load the textdomain for a default theme, use our own, packaged translation
+ *    files. All that happens after unloading the original default/ packaged
+ *    translations (that come from translate.wordpress.org).
+ *
+ * NOTE: See above remarks for ddw_wpgf_load_default_textdomain().
+ *
+ * @since 1.0.6
+ *
+ * @uses  wp_get_theme()
+ * @uses  unload_textdomain()
+ * @uses  ddw_wpgf_load_textdomain()
+ */
+function ddw_wpgf_load_default_themes_textdomain() {
+
+	$theme = wp_get_theme();
+
+	$theme_domain = esc_attr( $theme->display( 'TextDomain' ) );
+
+	/** 2014 Twenty Fourteen */
+	if ( $theme_domain == 'twentyfourteen' || $theme->display( 'Name' ) == 'Twenty Fourteen' ) {
+
+		unload_textdomain( 'twentyfourteen' );
+
+		ddw_wpgf_load_textdomain( 'twentyfourteen', 'twentyfourteen-' );
+
+	}  // end if
+
+	/** 2010-2013 Twenty Ten, Twenty Eleven, Twenty Twelve, Twenty Thirteen */
+	if ( in_array( $theme_domain, array( 'twentythirteen', 'twentytwelve', 'twentyeleven', 'twentyten' ) ) ) {
+
+		unload_textdomain( $theme_domain );
+
+		ddw_wpgf_load_textdomain( $theme_domain, $theme_domain . '-' );
+
+	}  // end if
+
+}  // end of function
+
+
+add_action( 'core_upgrade_preamble', 'ddw_wpgf_update_info', 11 );
 /**
  * User message on "update-core.php" admin screen about updates when using a
  *    localized version of WordPress.

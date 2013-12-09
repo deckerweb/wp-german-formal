@@ -62,6 +62,8 @@ Das Plugin hat keine Einstellungen. Es wird einfach aktiviert und verrichtet lau
 
 Für die Zukunft ist eventuell eine Unterseite im Adminbereich mit Informationen bzw. einigen Einstellungen geplant. Wann das geschehen wird, ist derzeit völlig offen.
 
+Für Multisite-Installationen wird eine Netzwerk-weite Aktivierung empfohlen.
+
 ## Lizenz
 
 GPL-2.0+

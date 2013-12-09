@@ -3,12 +3,12 @@ Contributors: daveshine, deckerweb
 Donate link: http://genesisthemes.de/en/donate/
 Tags: wordpress, translations, german, deutsch, de_DE, core, admin, network admin, multisite, deckerweb
 Requires at least: 3.7
-Tested up to: 3.7.1
-Stable tag: 1.0.5
+Tested up to: 3.8
+Stable tag: 1.0.6
 License: GPL-2.0+
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
-Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin.
+Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin, plus default themes.
 
 == Description ==
 
@@ -16,13 +16,14 @@ Load (custom) formal German translations for WordPress Core - Global, Admin and 
 
 = DE: =
 
-Lädt anstelle der "offiziellen deutschen Sprachdateien" (die mit der WordPress DE-Edition kommen) eigene deutsche Übersetzungen für WordPress - übersetzt, geplegt und herausgegeben von David Decker von DECKERWEB. Dies betrifft die folgenden Bereiche bzw. Sprachdateien: Global, Adminbereich sowie die Netzwerkverwaltung in Multisite.
+Lädt anstelle der "offiziellen deutschen Sprachdateien" (die mit der WordPress DE-Edition kommen) eigene deutsche Übersetzungen für WordPress. Übersetzt, geplegt und herausgegeben von David Decker von DECKERWEB. Dies betrifft die folgenden Bereiche bzw. Sprachdateien: Global, Adminbereich sowie die Netzwerkverwaltung in Multisite; außerdem alle sogenannten Standard-Themes von Twenty Ten bis Twenty Fourteen (Default Themes 2010-2014).
 
 * de_DE.mo = der globale Bereich, d.h. Strings, die überall vorkommen können, im Frontend, wie im Adminbereich
 * admin-de_DE.mo = Strings, die nur im Adminbereich vorkommen
 * network-admin-de_DE.mo = Strings, die nur in der Netzwerkverwaltung vorkommen (Network Admin in Multisite)
+* twenty{...}-de_DE.mo = Strings für das jeweilige Standard-Theme
 
-Diese neuen Sprachdateien basieren auf den "offiziellen Sprachdateien" aus der DE-Edition, in der Sie-Anrede. Sie wurden jedoch (nahezu) komplett überarbeitet und teilweise stark verändert.
+Diese neuen Sprachdateien basieren auf den "offiziellen Sprachdateien" aus der DE-Edition, in der Sie-Anrede. Sie wurden jedoch (nahezu) komplett überarbeitet und teilweise stark verändert, basierend auf den folgend dargelegten Prinzipien.
 
 **Grundlegendes**
 
@@ -45,19 +46,20 @@ Diese neuen Sprachdateien basieren auf den "offiziellen Sprachdateien" aus der D
 
 **Tipps & Mehr**
 
-* [Entdecken Sie meine anderen Plugins](http://genesisthemes.de/plugins/) oder schauen Sie auf meine [WordPress.org Profilseite](http://profiles.wordpress.org/users/daveshine/)
+* [Entdecken Sie meine anderen Plugins für WordPress bzw. Genesis](http://genesisthemes.de/plugins/) oder schauen Sie auf meine [WordPress.org Profilseite](http://profiles.wordpress.org/users/daveshine/)
 * Tipp: [*GenesisFinder* - Finden, dann erschaffen. Die Genesis Framework Suchmaschine.](http://genesisfinder.com/)
 
 
 = EN: =
 
-Instead of the packaged language files that come with WordPress - DE Edition - this plugin loads custom language packs translated, maintained and provided via David Decker of DECKERWEB. This includes the following sections: Global/Core, Admin and Network Admin.
+Instead of the packaged language files that come with WordPress - DE Edition - this plugin loads custom language packs translated, maintained and provided via David Decker of DECKERWEB. This includes the following sections: Global/Core, Admin and Network Admin, plus all the Default Themes, Twenty Ten up to Twenty Fourteen (2010-2014).
 
 * de_DE.mo = the global area, these are the strings that could appear anywhere, frontend, backend, Multisite
 * admin-de_DE.mo = strings that only appear in the admin area
 * network-admin-de_DE.mo = strings that only appear in the Network admin area in Multisite
+* twenty{...}-de_DE.mo = strings from the used default theme
 
-Those new language packs are based on the "official language packs" from the DE Edition in the formal version. However, the new language files were heavily modified and a lot of important strings and principals changed.
+Those new language packs are based on the "official language packs" from the DE Edition in the formal version. However, the new language files were heavily modified and a lot of important strings and principals changed, based on the principles laid out below.
 
 **Essentials for the Translations (German only!)**
 
@@ -90,7 +92,7 @@ Those new language packs are based on the "official language packs" from the DE 
 
 **Tips & More**
 
-* [Also see my other plugins](http://genesisthemes.de/en/wp-plugins/) or see [my WordPress.org profile page](http://profiles.wordpress.org/daveshine/)
+* [Also see my other plugins for WordPress and/or Genesis](http://genesisthemes.de/en/wp-plugins/) or see [my WordPress.org profile page](http://profiles.wordpress.org/daveshine/)
 * Tip: [*GenesisFinder* - Find then create. Your Genesis Framework Search Engine.](http://genesisfinder.com/)
 
 == Installation ==
@@ -172,6 +174,16 @@ EN: Currently none. (Not relevant at the moment.)
 
 == Changelog ==
 
+= 1.0.6 (2013-12-09) =
+* DE:
+ * Neu: Jetzt mit den Übersetzungen für alle Standard Themes (Default Themes) von 2010-2014, d.h. für "Twenty Ten" bis "Twenty Fourteen"! (Achtung: Bei "Twenty Fourteen" handelt es sich noch um eine Entwicklungsversion - daher sind die Übersetzungen nicht final!)
+ * Sprachdateien nun für WordPress Versionen 3.7 und 3.8 beiliegend. (Achtung: Bei 3.8 handelt es sich noch um eine Entwicklungsversion - daher sind die Übersetzungen nicht final!)
+ * Übersetzungen auf aktuellstem Stand, 09.12.2013
+* EN:
+ * New: Now with translations for all default themes, too, for 2010-2014 so for "Twenty Ten" up to "Twenty Fourteen". (Note: "Twenty Fourteen" is still in development so translations are not final!)
+ * Now with packaged language files for WordPress versions 3.7 and 3.8. (Note: WP 3.8 is still in development so translations are not final!)
+ * Translations of current state, as of 2013-12-09
+
 = 1.0.5 (2013-11-20) =
 * DE:
  * Sprachdateien für 2 WordPress-Hauptversionen nun möglich (z.B. für 3.7 und 3.8) - kann nützlich sein für Aktualisierungen, zum Testen usw.
@@ -196,6 +208,9 @@ EN: Currently none. (Not relevant at the moment.)
 
 
 == Upgrade Notice ==
+
+= 1.0.6 =
+DE: Sprachdateien für WordPress 3.7 und 3.8 sowie alle Standard Themes 2010-2014. // EN: Language packs for WordPress 3.7 and 3.8 plus all default themes 2010-2014.
 
 = 1.0.5 =
 DE: Sprachdateien für 2 WordPress-Hauptversionen möglich. Readme.txt hinzugefügt. // EN: Language packs for 2 major versions of WordPress possible. Added readme.txt file.

@@ -18,7 +18,7 @@ msgstr "Die Einführung eines völlig neuen Designs"
 
 #: wp-admin/about.php:47
 msgid "Modern aesthetic"
-msgstr "Modere Ästhetik"
+msgstr "Moderne Ästhetik"
 
 #: wp-admin/about.php:48
 msgid "The new WordPress dashboard has a fresh, uncluttered design that embraces clarity and simplicity."
@@ -38,7 +38,7 @@ msgstr "Verfeinerter Kontrast"
 
 #: wp-admin/about.php:58
 msgid "We think beautiful design should never sacrifice legibility. With superior contrast and large, comfortable type, the new design is easy to read and a pleasure to navigate."
-msgstr "Wir glauben: wunderschönes Design sollte niemals der Lesbarkeit geopfert werden! Mit starkem Kontrast und einer großen, bequemen Schrift, ist es ein Vergnügen, innerhalb des neuen Designs zu lesen und sich darin zu bewegen."
+msgstr "Wir glauben: wunderschönes Design sollte niemals der Lesbarkeit geopfert werden! Mit starkem Kontrast und einer großen, angenehmen Schrift, ist es ein Vergnügen, innerhalb des neuen Designs zu lesen und sich darin zu bewegen."
 
 #: wp-admin/about.php:68
 msgid "WordPress on every&nbsp;device"
@@ -46,7 +46,7 @@ msgstr "WordPress auf jedem Gerät"
 
 #: wp-admin/about.php:69
 msgid "We all access the internet in different ways. Smartphone, tablet, notebook, desktop &mdash; no matter what you use, WordPress will adapt and you&#8217;ll feel right at home."
-msgstr "Wir alle greifen auf das Internet auf verschiedene Weisen zu: über Smartphones, Tablets, Notebooks, Desktop-Rechner &mdash; egal, was Sie verwenden, WordPress passt sich an, damit Sie sich wie Zu Hause fühlen."
+msgstr "Wir alle greifen auf das Internet auf verschiedene Art und Weise zu: über Smartphones, Tablets, Notebooks, Desktop-Rechner &mdash; egal, was Sie verwenden, WordPress passt sich an, damit Sie sich wie zuhause fühlen."
 
 #: wp-admin/about.php:70
 msgid "High definition at high&nbsp;speed"
@@ -58,7 +58,7 @@ msgstr "WordPress ist schärfer als jemals zuvor, mit Vektor-basierten Icons, di
 
 #: wp-admin/about.php:90
 msgid "Pick a color"
-msgstr "Wählen Sie eine Farbe"
+msgstr "Wählen Sie <em>Ihr</em> Farbschema"
 
 #: wp-admin/about.php:91
 msgid "We&#8217;ve included eight color schemes so you can pick your favorite. Choose from any of them below to change it instantly."
@@ -74,7 +74,7 @@ msgstr "Verfeinerte Theme-Auswahl und -Verwaltung"
 
 #: wp-admin/about.php:108
 msgid "The new themes screen lets you survey your themes at a glance. Or want more information? Click to discover more. Then sit back and use your keyboard&#8217;s navigation arrows to flip through every theme you&#8217;ve got."
-msgstr "Auf dem neuen Themes-Bildschirm sehen Sie alle Ihre installierten Themes auf einen Blick. Oder Sie wollen noch mehr Details? Ein Klick auf das Vorschaubild bringt Sie weiter. Lehnen Sie sich einfach zurück und navigieren Sie per Tastatur-Cursortasten durch jedes Theme, was bereits installiert ist."
+msgstr "Auf dem neuen Themes-Bildschirm sehen Sie alle Ihre installierten Themes auf einen Blick. Oder wollen Sie noch mehr Details? Ein Klick auf das Vorschaubild bringt Sie weiter. Lehnen Sie sich einfach zurück und navigieren Sie per Tastatur-Cursortasten durch jedes Theme, was bereits installiert ist."
 
 #: wp-admin/about.php:109
 msgid "Smoother widget experience"
@@ -2306,7 +2306,7 @@ msgstr "Mehrere URLs durch Leerzeichen trennen"
 
 #: wp-admin/includes/meta-boxes.php:511
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
-msgstr "Benutzerdefinierte Felder dienen der Anreicherung von Beiträgen (und Inhaltstypen) mit Metadaten; Sie können diese <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">in Ihrem Theme</a> verwenden."
+msgstr "Benutzerdefinierte Felder dienen der Anreicherung von Beiträgen, Seiten und ggf. Inhaltstypen mit Metadaten; Sie können diese <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">in Ihrem Theme</a> verwenden."
 
 #: wp-admin/includes/meta-boxes.php:527
 msgid "Allow <a href=\"%s\" target=\"_blank\">trackbacks and pingbacks</a> on this page."
@@ -3663,7 +3663,7 @@ msgstr[1] "%s Seiten aus dem Papierkorb wiederhergestellt."
 
 #: wp-admin/revision.php:107
 msgid "Compare two different revisions by <strong>selecting the &#8220;Compare any two revisions&#8221; box</strong> to the side."
-msgstr "Vergleichen Sie zwei verschiedene Revisionen von der <strong> Auswahl der &#8220;Vergleichen Sie zwei beliebige Revisionen&#8221; Box </strong> auf der Seite."
+msgstr "Vergleichen Sie zwei verschiedene Revisionen, indem Sie das Kontrollkästchen <strong>&#8220;Vergleichen Sie zwei Revisionen&#8221;</strong> oben rechts auf der Seite aktivieren."
 
 #: wp-admin/includes/template.php:1897
 msgid "Compare Revisions"
@@ -3683,7 +3683,7 @@ msgstr "Jemand anderes bearbeitet dies bereits. Sie müssen nicht aktualisieren,
 
 #: wp-admin/revision.php:155
 msgid "Compare any two revisions"
-msgstr "Vergleiche Sie zwei Revisionen"
+msgstr "Vergleichen Sie zwei Revisionen"
 
 #: wp-admin/includes/media.php:239
 msgid "\"%1$s\" from %2$s by %3$s."
@@ -3703,7 +3703,7 @@ msgstr "\"%s\"."
 
 #: wp-admin/includes/meta-boxes.php:180
 msgid "Your site is configured to keep only the last %s revisions."
-msgstr "Ihre Webseite ist so konfiguriert, nur die Letzten %s Revisionen zu behalten."
+msgstr "Ihre Webseite ist so konfiguriert, nur die neuesten %s Revisionen zu behalten."
 
 #: wp-admin/includes/meta-boxes.php:182 wp-admin/includes/meta-boxes.php:185
 msgid "Revisions: %s"
@@ -3712,7 +3712,7 @@ msgstr "Revisionen: %s"
 #: wp-admin/includes/meta-boxes.php:188
 msgctxt "revisions"
 msgid "Browse"
-msgstr "Durchsuchen Sie"
+msgstr "Versionen ansehen"
 
 #: wp-admin/revision.php:172
 msgid "Autosave by %s"
@@ -3784,7 +3784,7 @@ msgstr "Während der Aktualisierung von %1$s ist ein Fehler aufgetreten: <strong
 
 #: wp-admin/revision.php:106
 msgid "To navigate between revisions, <strong>drag the slider handle left or right</strong> or <strong>use the Previous or Next buttons</strong>."
-msgstr "Um zwischen den Revisionen zu navigieren,<strong>verschieben Sie den Slider von links nach rechts</strong> oder <strong>verwenden den Button \"Vorherige\" oder \"Nächste\"</strong>. "
+msgstr "Um zwischen den Revisionen zu navigieren, <strong>verschieben Sie den Slider von links nach rechts</strong> oder <strong>verwenden Sie den Button \"Ältere Version\" oder \"Neuere Version\"</strong>. "
 
 #: wp-admin/press-this.php:610
 msgid "Loading&hellip;"
@@ -3820,11 +3820,11 @@ msgstr "Sie haben noch keine Menüs erstellt. <strong>Klicken Sie auf den &#8217
 
 #: wp-admin/revision.php:103
 msgid "This screen is used for managing your content revisions."
-msgstr "Diese Anzeige wird benutzt, um die Revisionen Ihrer Inhalte zu verwalten."
+msgstr "Diese Anzeige wird verwendet, um die Revisionen Ihrer Inhalte zu verwalten."
 
 #: wp-admin/revision.php:104
 msgid "Revisions are saved copies of your post or page, which are periodically created as you update your content. The red text on the left shows the content that was removed. The green text on the right shows the content that was added."
-msgstr "Revisionen sind gesicherte Kopien eines Beitrags oder einer Seite, die periodisch erstellt werden, wenn Sie deren Inhalt aktualisieren. Der rote Text auf der linken Seite zeigt entfernte Inhalte. Der grüne Text auf der rechten Seite zeigt neu hinzugefügte Teile."
+msgstr "Revisionen sind gesicherte Kopien eines Beitrags, einer Seite oder eines Inhaltstyps, die periodisch erstellt werden. Dies geschieht fortlaufend, wenn Sie deren Inhalt aktualisieren bzw. WordPress selbst eine automatische Sicherung anlegt. Der rote Text auf der linken Seite zeigt entfernte Inhalte. Der grüne Text auf der rechten Seite zeigt neu hinzugefügte Teile."
 
 #: wp-admin/revision.php:105
 msgid "From this screen you can review, compare, and restore revisions:"
@@ -3832,7 +3832,7 @@ msgstr "Von dieser Seite aus können Sie Revisionen überprüfen, vergleichen un
 
 #: wp-admin/revision.php:108
 msgid "To restore a revision, <strong>click Restore This Revision</strong>."
-msgstr "Um eine Revision wiederherzustellen, klicken Sie auf <strong>Revision wiederherstellen</strong>."
+msgstr "Um eine Revision wiederherzustellen, klicken Sie auf <strong>Diese Version wiederherstellen</strong>."
 
 #: wp-admin/revision.php:117
 msgid "<a href=\"http://codex.wordpress.org/Revision_Management\" target=\"_blank\">Revisions Management</a>"
@@ -3851,12 +3851,12 @@ msgstr "Von:"
 #: wp-admin/revision.php:137
 msgctxt "Button label for a previous revision"
 msgid "Previous"
-msgstr "Zurück"
+msgstr "Ältere Version"
 
 #: wp-admin/revision.php:141
 msgctxt "Button label for a next revision"
 msgid "Next"
-msgstr "Weiter"
+msgstr "Neuere Version"
 
 #: wp-admin/nav-menus.php:369
 msgid "Menu locations updated."
@@ -10062,7 +10062,7 @@ msgstr "via "
 
 #: wp-admin/revision.php:76
 msgid "Compare Revisions of &#8220;%1$s&#8221;"
-msgstr "Vergleiche Überarbeitungen von &#8220;%1$s&#8221;"
+msgstr "Revisionen vergleichen von: &#8220;%1$s&#8221;"
 
 #: wp-admin/themes.php:345
 msgid "Tags:"

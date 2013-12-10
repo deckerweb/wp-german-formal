@@ -4,7 +4,7 @@ Donate link: http://genesisthemes.de/en/donate/
 Tags: wordpress, translations, german, deutsch, de_DE, core, admin, network admin, multisite, deckerweb
 Requires at least: 3.7
 Tested up to: 3.8
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPL-2.0+
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
@@ -174,6 +174,10 @@ EN: Currently none. (Not relevant at the moment.)
 
 == Changelog ==
 
+= 1.0.7 (2013-12-11) =
+* DE: Übersetzungen auf aktuellstem Stand, 10.12.2013
+* EN: Translations of current state, as of 2013-12-10
+
 = 1.0.6 (2013-12-09) =
 * DE:
  * Neu: Jetzt mit den Übersetzungen für alle Standard Themes (Default Themes) von 2010-2014, d.h. für "Twenty Ten" bis "Twenty Fourteen"! (Achtung: Bei "Twenty Fourteen" handelt es sich noch um eine Entwicklungsversion - daher sind die Übersetzungen nicht final!)
@@ -208,6 +212,9 @@ EN: Currently none. (Not relevant at the moment.)
 
 
 == Upgrade Notice ==
+
+= 1.0.7 =
+DE: Sprachdateien aktualisiert. // EN: Updated language packs.
 
 = 1.0.6 =
 DE: Sprachdateien für WordPress 3.7 und 3.8 sowie alle Standard Themes 2010-2014. // EN: Language packs for WordPress 3.7 and 3.8 plus all default themes 2010-2014.

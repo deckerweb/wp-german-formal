@@ -5613,7 +5613,7 @@ msgstr "Abmelden"
 
 #: wp-includes/general-template.php:305 wp-login.php:852
 msgid "Remember Me"
-msgstr "Daten merken <small>(14 Tage)</small>"
+msgstr "Daten merken"
 
 #: wp-includes/general-template.php:383 wp-login.php:541 wp-login.php:621
 #: wp-login.php:696 wp-login.php:871

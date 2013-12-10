@@ -1,7 +1,7 @@
 # This file is distributed under the same license as the WP German Formal package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 23:23:17+0000\n"
+"PO-Revision-Date: 2013-12-10 23:23:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +22,7 @@ msgid "Important info for \"WP German Formal\" plugin:"
 msgstr ""
 
 #: wp-german-formal.php:0
-msgid "1.0.6"
+msgid "1.0.7"
 msgstr ""
 
 #: wp-german-formal.php:0

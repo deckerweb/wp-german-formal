@@ -6,21 +6,21 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-09 21:59:43+0000\n"
+"PO-Revision-Date: 2013-12-11 00:17:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: WP German Formal v1.0.6\n"
+"Project-Id-Version: WP German Formal v1.0.7\n"
+
+#: wp-german-formal.php:0
+msgid "1.0.7"
+msgstr "1.0.7"
 
 #: wp-german-formal.php:0
 msgid "Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin, plus default themes."
 msgstr "(Eigene) Formelle deutsche Übersetzungen für WordPress Core laden und anzeigen lassen - für die Bereiche Global, Admin und Netzwerkverwaltung, plus Standard-Themes."
-
-#: wp-german-formal.php:0
-msgid "1.0.6"
-msgstr "1.0.6"
 
 #: wp-german-formal.php:129
 msgid "However, if you were/ are originally using a localized version of WordPress, let's say with German language pack, you can update your WordPress install like normal. It will also update the default (a.k.a. packaged) language packs. Since you have the above mentioned plugin active, the language packs from that plugin will be loaded and displayed. To have the default translations displayed you must deactivate the mentioned plugin."

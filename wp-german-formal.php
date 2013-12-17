@@ -14,7 +14,7 @@
  * Plugin Name:       WP German Formal
  * Plugin URI:        http://genesisthemes.de/en/wp-plugins/wp-german-formal/
  * Description:       Load (custom) formal German translations for WordPress Core - Global, Admin and Network Admin, plus default themes.
- * Version:           1.0.7
+ * Version:           1.0.8
  * Author:            David Decker - DECKERWEB
  * Author URI:        http://deckerweb.de/
  * License:           GPL-2.0+
@@ -70,12 +70,21 @@ define( 'WPGF_PLUGIN_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 
 /**
  * Helper constant for next major WordPress Version AFTER the current one.
- * CURRENT: 3.7
- * FUTURE: 3.8
+ * CURRENT: 3.8
+ *  FUTURE: 3.9
  *
  * @since 1.0.3
  */
-define( 'WPGF_WPJUMP_VERSION', '3.7.9999' );
+define( 'WPGF_WPJUMP_VERSION', '3.8.9999' );
+
+/**
+ * Helper constant for previous major WordPress Version BEFORE the current one.
+ *   OLDIE: 3.7
+ * CURRENT: 3.8
+ *
+ * @since 1.0.8
+ */
+define( 'WPGF_WPJUMP_OLDIE_VERSION', '3.7.9999' );
 
 
 add_action( 'init', 'ddw_wpgf_init', 1 );
@@ -116,7 +125,31 @@ function ddw_wpgf_init() {
 
 	}  // end if is_admin() check
 
+	/** Include helper functions */
+	include_once( WPGF_PLUGIN_DIR . 'includes/wpgf-functions.php' );
+
 }  // end of function ddw_wpgf_init
+
+
+/**
+ * Helper functions for disabling language pack updates (only if 'de_DE' locale)
+ *    and only allow WordPress Core updates with default locale (so no Core
+ *    language packs are downloaded/updated).
+ *
+ * USAGE: Add to your wp-config.php file:
+ *        define( 'WPGF_BLOCK_DE_LANGUAGE_PACKS', TRUE );
+ *
+ * @since 1.0.8
+ */
+if ( defined( 'WPGF_BLOCK_DE_LANGUAGE_PACKS' ) && WPGF_BLOCK_DE_LANGUAGE_PACKS ) {
+
+	include_once( WPGF_PLUGIN_DIR . 'includes/wpgf-blocker.php' );
+
+} else {
+
+	add_action( 'core_upgrade_preamble', 'ddw_wpgf_update_info', 11 );
+
+}  // end if
 
 
 /**
@@ -144,7 +177,21 @@ function ddw_wpgf_load_textdomain( $domain, $key ) {
 	$custom_slug = apply_filters( 'wpgf_filter_wplangdir_custom_slug', $custom_slug );
 
 	/** Enable version jumping - for updates, testing and such... :) */
-	$wpjump_slug = ( version_compare( $GLOBALS[ 'wp_version' ], WPGF_WPJUMP_VERSION, '>=' ) ) ? 'future' : '/';
+	//$wpjump_slug = ( version_compare( $GLOBALS[ 'wp_version' ], WPGF_WPJUMP_VERSION, '>=' ) ) ? 'future' : '/';
+	if ( version_compare( $GLOBALS[ 'wp_version' ], WPGF_WPJUMP_VERSION, '>=' ) ) {
+
+		$wpjump_slug = 'future';
+
+	} elseif ( version_compare( $GLOBALS[ 'wp_version' ], WPGF_WPJUMP_OLDIE_VERSION, '<=' ) ) {
+
+		$wpjump_slug = 'oldies';
+
+	} else {
+
+		$wpjump_slug = '/';
+
+	}  // end if
+
 
 	/**
 	 * First, look with subfolder of WP_LANG_DIR
@@ -177,7 +224,7 @@ function ddw_wpgf_load_textdomain( $domain, $key ) {
 }  // end of function ddw_wpgf_load_textdomain
 
 
-add_action( 'plugins_loaded', 'ddw_wpgf_load_default_textdomain' );
+add_action( 'plugins_loaded', 'ddw_wpgf_load_default_textdomain', 0 );
 /**
  * Re-load the 'default' textdomain, use our own, packaged translation files.
  *    All that happens after unloading the original default/ packaged
@@ -245,17 +292,8 @@ function ddw_wpgf_load_default_themes_textdomain() {
 
 	$theme_domain = esc_attr( $theme->display( 'TextDomain' ) );
 
-	/** 2014 Twenty Fourteen */
-	if ( $theme_domain == 'twentyfourteen' || $theme->display( 'Name' ) == 'Twenty Fourteen' ) {
-
-		unload_textdomain( 'twentyfourteen' );
-
-		ddw_wpgf_load_textdomain( 'twentyfourteen', 'twentyfourteen-' );
-
-	}  // end if
-
-	/** 2010-2013 Twenty Ten, Twenty Eleven, Twenty Twelve, Twenty Thirteen */
-	if ( in_array( $theme_domain, array( 'twentythirteen', 'twentytwelve', 'twentyeleven', 'twentyten' ) ) ) {
+	/** 2010-2014 Twenty Ten, Twenty Eleven, Twenty Twelve, Twenty Thirteen, Twenty Fourteen */
+	if ( in_array( $theme_domain, array( 'twentyfourteen', 'twentythirteen', 'twentytwelve', 'twentyeleven', 'twentyten' ) ) ) {
 
 		unload_textdomain( $theme_domain );
 
@@ -264,28 +302,3 @@ function ddw_wpgf_load_default_themes_textdomain() {
 	}  // end if
 
 }  // end of function
-
-
-add_action( 'core_upgrade_preamble', 'ddw_wpgf_update_info', 11 );
-/**
- * User message on "update-core.php" admin screen about updates when using a
- *    localized version of WordPress.
- *
- * @since 1.0.0
- */
-function ddw_wpgf_update_info() {
-
-	$update_info_message = sprintf(
-		'<br /><h3>%s</h3><p>%s</p><p>%s</p>',
-		'&rarr; ' . esc_attr__( 'Important info for "WP German Formal" plugin:', 'wp-german-formal' ),
-		esc_attr__( 'You are currently have enabled the "WP German Formal" plugin to let load your translations for WordPress Core (global, admin, network admin). That is, generally speaking, perfectly fine. :) So thank you, first!', 'wp-german-formal' ),
-		esc_attr__( 'However, if you were/ are originally using a localized version of WordPress, let\'s say with German language pack, you can update your WordPress install like normal. It will also update the default (a.k.a. packaged) language packs. Since you have the above mentioned plugin active, the language packs from that plugin will be loaded and displayed. To have the default translations displayed you must deactivate the mentioned plugin.', 'wp-german-formal' )
-	);
-
-	?>
-
-		<div id="wpgf-update-info" class="description"><?php echo $update_info_message; ?></div>
-
-	<?php
-
-}  // end of function ddw_wpgf_update_info

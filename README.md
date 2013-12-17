@@ -64,6 +64,15 @@ Für die Zukunft ist eventuell eine Unterseite im Adminbereich mit Informationen
 
 Für Multisite-Installationen wird eine Netzwerk-weite Aktivierung empfohlen.
 
+Derzeit werden bis zu 3 (drei!) verschiedene Hauptpersionen von WordPress unterstützt: 3.8 (aktuell), davor 3.7 sowie zukünftig 3.9. Mehr wie drei solcher Versionen werden nicht unterstützt! Diese Funktionalität ist sehr komfortabel zum Testen sowie bei Aktualisierungen von Installationen! :-)
+
+**Zusatzfunktion:**
+Blocker-Konstante, um Aktualisierung von Übersetzungen (Sprachpakete - Language Packs) zu unterbinden, auch für WordPress Core. Betrifft nur die Lokale 'de_DE'. Rein optional über Hinzufügen der folgenden Konstante in der `wp-config.php` aktivierbar:
+```php
+/** Plugin: WP German Formal */
+define( 'WPGF_BLOCK_DE_LANGUAGE_PACKS', TRUE );
+```
+
 ## Lizenz
 
 GPL-2.0+

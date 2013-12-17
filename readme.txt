@@ -3,8 +3,8 @@ Contributors: daveshine, deckerweb
 Donate link: http://genesisthemes.de/en/donate/
 Tags: wordpress, translations, german, deutsch, de_DE, core, admin, network admin, multisite, deckerweb
 Requires at least: 3.7
-Tested up to: 3.8
-Stable tag: 1.0.7
+Tested up to: 3.9
+Stable tag: 1.0.8
 License: GPL-2.0+
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
@@ -159,12 +159,23 @@ Das Plugin hat keine Einstellungen. Es wird einfach aktiviert und verrichtet lau
 
 Für die Zukunft ist eventuell eine Unterseite im Adminbereich mit Informationen bzw. einigen Einstellungen geplant. Wann das geschehen wird, ist derzeit völlig offen.
 
+Blocker-Konstante, um Aktualisierung von Übersetzungen (Sprachpakete - Language Packs) zu unterbinden, auch für WordPress Core. Betrifft nur die Lokale 'de_DE'. Rein optional über Hinzufügen der folgenden Konstante in der `wp-config.php` aktivierbar:
+`
+/** Plugin: WP German Formal */
+define( 'WPGF_BLOCK_DE_LANGUAGE_PACKS', TRUE );
+`
+
 **EN:**
 
 This plugin has no settings at all because it currently doesn't need them! Just activate it and it will serve you up proper translations! ;-)
 
 Maybe in future versions some admin sub page will be added with useful information and/or a few settings.
 
+"Blocker" constant to deactivate updates of language packs, including WordPress core, only for German locale 'de_De'. Add the following constant to your `wp-config.php` to activate the blocking:
+`
+/** Plugin: WP German Formal */
+define( 'WPGF_BLOCK_DE_LANGUAGE_PACKS', TRUE );
+`
 
 == Screenshots ==
 
@@ -173,6 +184,16 @@ DE: Derzeit keine. (Im Moment nicht relevant.)
 EN: Currently none. (Not relevant at the moment.)
 
 == Changelog ==
+
+= 1.0.8 (2013-12-17) =
+* DE:
+ * Sprachdateien für 3 WordPress-Hauptversionen nun möglich (z.B. für 3.7, 3.8 und 3.9) - kann nützlich sein für Aktualisierungen, zum Testen usw.
+ * Jetzt inklusive "Blocker"-Filter/ -Funktionen, um die Aktualisierung deutscher Sprachpakete (Language Packs) zu unterbinden, auch für WordPress Core (nur für deutsche Lokale 'de_DE'). Aktivierbar über Konstante in `wp-config.php`.
+ * Übersetzungen auf aktuellstem Stand, 17.12.2013
+* EN:
+ * Language packs for 3 major versions of WordPress are now possible (for example: 3.7, 3.8 and 3.9) - could be useful for Updates, for testing etc.
+ * Now including "blocker" filters/ function to deactivate updates of German language packs, including WordPress Core - only for German locale (de_DE); activation optional via constant in `wp-config.php`.
+ * Translations of current state, as of 2013-12-17
 
 = 1.0.7 (2013-12-11) =
 * DE: Übersetzungen auf aktuellstem Stand, 10.12.2013
@@ -212,6 +233,9 @@ EN: Currently none. (Not relevant at the moment.)
 
 
 == Upgrade Notice ==
+
+= 1.0.8 =
+DE: Sprachdateien aktualisiert. // EN: Updated language packs.
 
 = 1.0.7 =
 DE: Sprachdateien aktualisiert. // EN: Updated language packs.

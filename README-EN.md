@@ -66,6 +66,15 @@ Maybe in future versions some admin sub page will be added with useful informati
 
 For Multisite installs a Network activation of the plugin is recommended.
 
+Currently up to 3 (three!) major versions of WordPress are supported at the same time! That means exactly: 3.8 (current), former 3.7 and upcoming 3.9 branch. More than three major versions are not planned for support! This feature comes in very handy for testing and in general for running updates of installations.
+
+**Additional Feature:**
+"Blocker" constant to deactivate updates of language packs, including WordPress core, only for German locale 'de_De'. Add the following constant to your `wp-config.php` to activate the blocking:
+```php
+/** Plugin: WP German Formal */
+define( 'WPGF_BLOCK_DE_LANGUAGE_PACKS', TRUE );
+```
+
 ## License
 
 GPL-2.0+
